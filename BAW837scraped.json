@@ -1,106 +1,360 @@
-{"listOfDates": ["24-Nov-2021 ", "23-Nov-2021 ", "22-Nov-2021 ", "21-Nov-2021 ", "20-Nov-2021 ", "19-Nov-2021 ", "18-Nov-2021 ", "17-Nov-2021 ", "16-Nov-2021 ", "15-Nov-2021 ", "14-Nov-2021 ", "13-Nov-2021 ", "12-Nov-2021 ", "11-Nov-2021 ", "10-Nov-2021 ", "09-Nov-2021 ", "08-Nov-2021 ", "07-Nov-2021 ", "06-Nov-2021 ", "05-Nov-2021 ", "04-Nov-2021 ", "03-Nov-2021 ", "02-Nov-2021 ", "01-Nov-2021 ", "31-Oct-2021 ", "29-Oct-2021 ", "28-Oct-2021 ", "27-Oct-2021 ", "26-Oct-2021 ", "22-Oct-2021 ", "21-Oct-2021 ", "20-Oct-2021 ", "19-Oct-2021 ", "15-Oct-2021 ", "14-Oct-2021 ", "13-Oct-2021 ", "12-Oct-2021 ", "08-Oct-2021 ", "07-Oct-2021 ", "06-Oct-2021 ", "05-Oct-2021 ", "01-Oct-2021 ", "30-Sep-2021 ", "24-Sep-2021 ", "23-Sep-2021 ", "17-Sep-2021 ", "10-Sep-2021 ", "09-Sep-2021 ", "03-Sep-2021 ", "27-Aug-2021 "
-    ], "listOfAircrafts": ["A320", "A320", "A320", "A320", "A320", "A320", "A320", "A320", "A320", "A320", "A319", "A320", "A320", "A320", "A320", "A320", "A320", "A319", "A20N", "A320", "A320", "A320", "A320", "A319", "A319", "A320", "A319", "A319", "A319", "A20N", "A320", "A320", "A319", "A21N", "A319", "A319", "A320", "A320", "A320", "A320", "A319", "A319", "A319", "A319", "A320", "A320", "A319", "A319", "A320", "A319"
-    ], "listOfDelays": [
-        ["(on time)", "(on time)"
+{
+    "listOfDates": [
+        "24-Nov-2021 ",
+        "23-Nov-2021 ",
+        "22-Nov-2021 ",
+        "21-Nov-2021 ",
+        "20-Nov-2021 ",
+        "19-Nov-2021 ",
+        "18-Nov-2021 ",
+        "17-Nov-2021 ",
+        "16-Nov-2021 ",
+        "15-Nov-2021 ",
+        "14-Nov-2021 ",
+        "13-Nov-2021 ",
+        "12-Nov-2021 ",
+        "11-Nov-2021 ",
+        "10-Nov-2021 ",
+        "09-Nov-2021 ",
+        "08-Nov-2021 ",
+        "07-Nov-2021 ",
+        "06-Nov-2021 ",
+        "05-Nov-2021 ",
+        "04-Nov-2021 ",
+        "03-Nov-2021 ",
+        "02-Nov-2021 ",
+        "01-Nov-2021 ",
+        "31-Oct-2021 ",
+        "29-Oct-2021 ",
+        "28-Oct-2021 ",
+        "27-Oct-2021 ",
+        "26-Oct-2021 ",
+        "22-Oct-2021 ",
+        "21-Oct-2021 ",
+        "20-Oct-2021 ",
+        "19-Oct-2021 ",
+        "15-Oct-2021 ",
+        "14-Oct-2021 ",
+        "13-Oct-2021 ",
+        "12-Oct-2021 ",
+        "08-Oct-2021 ",
+        "07-Oct-2021 ",
+        "06-Oct-2021 ",
+        "05-Oct-2021 ",
+        "01-Oct-2021 ",
+        "30-Sep-2021 ",
+        "24-Sep-2021 ",
+        "23-Sep-2021 ",
+        "17-Sep-2021 ",
+        "10-Sep-2021 ",
+        "09-Sep-2021 ",
+        "03-Sep-2021 ",
+        "27-Aug-2021 "
+    ],
+    "listOfAircrafts": [
+        "A320",
+        "A320",
+        "A320",
+        "A320",
+        "A320",
+        "A320",
+        "A320",
+        "A320",
+        "A320",
+        "A320",
+        "A319",
+        "A320",
+        "A320",
+        "A320",
+        "A320",
+        "A320",
+        "A320",
+        "A319",
+        "A20N",
+        "A320",
+        "A320",
+        "A320",
+        "A320",
+        "A319",
+        "A319",
+        "A320",
+        "A319",
+        "A319",
+        "A319",
+        "A20N",
+        "A320",
+        "A320",
+        "A319",
+        "A21N",
+        "A319",
+        "A319",
+        "A320",
+        "A320",
+        "A320",
+        "A320",
+        "A319",
+        "A319",
+        "A319",
+        "A319",
+        "A320",
+        "A320",
+        "A319",
+        "A319",
+        "A320",
+        "A319"
+    ],
+    "listOfDelays": [
+        [
+            "(on time)",
+            "(on time)"
         ],
-        ["(18 minutes early)", "(7 minutes early)"
+        [
+            "(18 minutes early)",
+            "(7 minutes early)"
         ],
-        ["(14 minutes early)", "(4 minutes early)"
+        [
+            "(14 minutes early)",
+            "(4 minutes early)"
         ],
-        ["(10 minutes early)", "(on time)"
+        [
+            "(10 minutes early)",
+            "(on time)"
         ],
-        ["(26 minutes early)", "(6 minutes early)"
+        [
+            "(26 minutes early)",
+            "(6 minutes early)"
         ],
-        ["(16 minutes late)", "(on time)"
+        [
+            "(16 minutes late)",
+            "(on time)"
         ],
-        ["(22 minutes early)", "(13 minutes early)"
+        [
+            "(22 minutes early)",
+            "(13 minutes early)"
         ],
-        ["(8 minutes early)", "(4 minutes early)"
+        [
+            "(8 minutes early)",
+            "(4 minutes early)"
         ],
-        ["(25 minutes early)", "(10 minutes early)"
+        [
+            "(25 minutes early)",
+            "(10 minutes early)"
         ],
-        ["(23 minutes early)", "(8 minutes early)"
+        [
+            "(23 minutes early)",
+            "(8 minutes early)"
         ],
-        ["(16 minutes early)", "(4 minutes early)"
+        [
+            "(16 minutes early)",
+            "(4 minutes early)"
         ],
-        ["(10 minutes early)", "(5 minutes early)"
+        [
+            "(10 minutes early)",
+            "(5 minutes early)"
         ],
-        ["(20 minutes early)", "(3 minutes early)"
+        [
+            "(20 minutes early)",
+            "(3 minutes early)"
         ],
-        ["(on time)", "(on time)"
+        [
+            "(on time)",
+            "(on time)"
         ],
-        ["(22 minutes early)", "(4 minutes early)"
+        [
+            "(22 minutes early)",
+            "(4 minutes early)"
         ],
-        ["(22 minutes early)", "(3 minutes early)"
+        [
+            "(22 minutes early)",
+            "(3 minutes early)"
         ],
-        ["(21 minutes early)", "(3 minutes early)"
+        [
+            "(21 minutes early)",
+            "(3 minutes early)"
         ],
-        ["(11 minutes early)", "(on time)"
+        [
+            "(11 minutes early)",
+            "(on time)"
         ],
-        ["(17 minutes early)", "(on time)"
+        [
+            "(17 minutes early)",
+            "(on time)"
         ],
-        ["(19 minutes early)", "(2 minutes early)"
+        [
+            "(19 minutes early)",
+            "(2 minutes early)"
         ],
-        ["(12 minutes early)", "(on time)"
+        [
+            "(12 minutes early)",
+            "(on time)"
         ],
-        ["(17 minutes early)", "(on time)"
+        [
+            "(17 minutes early)",
+            "(on time)"
         ],
-        ["(25 minutes early)", "(6 minutes early)"
+        [
+            "(25 minutes early)",
+            "(6 minutes early)"
         ],
-        ["(20 minutes early)", "(5 minutes early)"
+        [
+            "(20 minutes early)",
+            "(5 minutes early)"
         ],
-        ["(on time)", "(on time)"
+        [
+            "(on time)",
+            "(on time)"
         ],
-        ["(on time)", "(on time)"
+        [
+            "(on time)",
+            "(on time)"
         ],
-        ["(on time)", "(on time)"
+        [
+            "(on time)",
+            "(on time)"
         ],
-        ["(10 minutes early)", "(on time)"
+        [
+            "(10 minutes early)",
+            "(on time)"
         ],
-        ["(16 minutes early)", "(on time)"
+        [
+            "(16 minutes early)",
+            "(on time)"
         ],
-        ["(18 minutes early)", "(3 minutes early)"
+        [
+            "(18 minutes early)",
+            "(3 minutes early)"
         ],
-        ["(on time)", "(on time)"
+        [
+            "(on time)",
+            "(on time)"
         ],
-        ["(1 hour 38 minutes late)", "(1 hour 50 minutes late)"
+        [
+            "(1 hour 38 minutes late)",
+            "(1 hour 50 minutes late)"
         ],
-        ["(15 minutes early)", "(4 minutes early)"
+        [
+            "(15 minutes early)",
+            "(4 minutes early)"
         ],
-        ["(on time)", "(on time)"
+        [
+            "(on time)",
+            "(on time)"
         ],
-        ["(19 minutes late)", "(32 minutes late)"
+        [
+            "(19 minutes late)",
+            "(32 minutes late)"
         ],
-        ["(20 minutes late)", "(35 minutes late)"
+        [
+            "(20 minutes late)",
+            "(35 minutes late)"
         ],
-        ["(14 minutes early)", "(3 minutes early)"
+        [
+            "(14 minutes early)",
+            "(3 minutes early)"
         ],
-        ["(27 minutes late)", "(33 minutes late)"
+        [
+            "(27 minutes late)",
+            "(33 minutes late)"
         ],
-        ["(14 minutes early)", "(4 minutes early)"
+        [
+            "(14 minutes early)",
+            "(4 minutes early)"
         ],
-        ["(25 minutes early)", "(8 minutes early)"
+        [
+            "(25 minutes early)",
+            "(8 minutes early)"
         ],
-        ["(20 minutes early)", "(2 minutes early)"
+        [
+            "(20 minutes early)",
+            "(2 minutes early)"
         ],
-        ["(on time)", "(on time)"
+        [
+            "(on time)",
+            "(on time)"
         ],
-        ["(on time)", "(on time)"
+        [
+            "(on time)",
+            "(on time)"
         ],
-        ["(1 hour 28 minutes late)", "(1 hour 41 minutes late)"
+        [
+            "(1 hour 28 minutes late)",
+            "(1 hour 41 minutes late)"
         ],
-        ["(30 minutes late)", "(on time)"
+        [
+            "(30 minutes late)",
+            "(on time)"
         ],
-        ["(10 minutes early)", "(on time)"
+        [
+            "(10 minutes early)",
+            "(on time)"
         ],
-        ["(13 minutes early)", "(on time)"
+        [
+            "(13 minutes early)",
+            "(on time)"
         ],
-        ["(16 minutes early)", "(5 minutes early)"
+        [
+            "(16 minutes early)",
+            "(5 minutes early)"
         ],
-        ["(on time)", "(on time)"
+        [
+            "(on time)",
+            "(on time)"
         ],
-        ["(on time)", "(on time)"
+        [
+            "(on time)",
+            "(on time)"
         ]
-    ], "listOfScheduledTakeOffTimes": ["\n\t\t\t\t\t\t\t03: 55PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 55PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 55PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 50PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t04: 00PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t04: 00PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 00PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 55PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 55PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 55PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 50PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t04: 00PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t04: 00PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 00PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 55PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 55PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 55PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 50PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t04: 00PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t04: 00PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 00PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 55PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 55PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 55PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 50PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t05: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t07: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t05: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t05: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t05: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t05: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t03: 20PM\xa0IST\n\t\t\t\t\t"
+    ],
+    "listOfScheduledTakeOffTimes": [
+        "03: 55PMa0GMT",
+        "03: 55PMa0GMT",
+        "03: 55PMa0GMT",
+        "03: 50PMa0GMT",
+        "04: 00PMa0GMT",
+        "04: 00PMa0GMT",
+        "03: 00PMa0GMT",
+        "03: 55PMa0GMT",
+        "03: 55PMa0GMT",
+        "03: 55PMa0GMT",
+        "03: 50PMa0GMT",
+        "04: 00PMa0GMT",
+        "04: 00PMa0GMT",
+        "03: 00PMa0GMT",
+        "03: 55PMa0GMT",
+        "03: 55PMa0GMT",
+        "03: 55PMa0GMT",
+        "03: 50PMa0GMT",
+        "04: 00PMa0GMT",
+        "04: 00PMa0GMT",
+        "03: 00PMa0GMT",
+        "03: 55PMa0GMT",
+        "03: 55PMa0GMT",
+        "03: 55PMa0GMT",
+        "03: 50PMa0GMT",
+        "05: 20PMa0IST",
+        "03: 20PMa0IST",
+        "03: 20PMa0IST",
+        "03: 20PMa0IST",
+        "07: 20PMa0IST",
+        "03: 20PMa0IST",
+        "03: 20PMa0IST",
+        "03: 20PMa0IST",
+        "05: 20PMa0IST",
+        "03: 20PMa0IST",
+        "03: 20PMa0IST",
+        "03: 20PMa0IST",
+        "05: 20PMa0IST",
+        "03: 20PMa0IST",
+        "03: 20PMa0IST",
+        "03: 20PMa0IST",
+        "05: 20PMa0IST",
+        "03: 20PMa0IST",
+        "05: 20PMa0IST",
+        "03: 20PMa0IST",
+        "03: 20PMa0IST",
+        "03: 20PMa0IST",
+        "03: 20PMa0IST",
+        "03: 20PMa0IST",
+        "03: 20PMa0IST"
     ]
 }

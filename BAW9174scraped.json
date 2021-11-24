@@ -35,6 +35,11 @@
             "(on time)"
         ]
     ],
-    "listOfScheduledTakeOffTimes": ["\n\t\t\t\t\t\t\t12:13PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t01:31PM\xa0BST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t09:10PM\xa0BST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t08:01PM\xa0BST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t03:34PM\xa0BST\n\t\t\t\t\t"
+    "listOfScheduledTakeOffTimes": [
+        "12:13PMa0GMT",
+        "01:31PMa0BST",
+        "09:10PMa0BST",
+        "08:01PMa0BST",
+        "03:34PMa0BST"
     ]
 }
