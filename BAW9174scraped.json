@@ -1,0 +1,40 @@
+{
+    "listOfDates": [
+        "22-Nov-2021 ",
+        "18-Oct-2021 ",
+        "08-Oct-2021 ",
+        "28-Sep-2021 ",
+        "03-Sep-2021 "
+    ],
+    "listOfAircrafts": [
+        "B788",
+        "B772",
+        "B789",
+        "B789",
+        "B772"
+    ],
+    "listOfDelays": [
+        [
+            "(on time)",
+            "(on time)"
+        ],
+        [
+            "(17 minutes early)",
+            "(17 minutes early)"
+        ],
+        [
+            "(2 minutes early)",
+            "(2 minutes early)"
+        ],
+        [
+            "(1 hour 23 minutes late)",
+            "(1 hour 24 minutes late)"
+        ],
+        [
+            "(on time)",
+            "(on time)"
+        ]
+    ],
+    "listOfScheduledTakeOffTimes": ["\n\t\t\t\t\t\t\t12:13PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t01:31PM\xa0BST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t09:10PM\xa0BST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t08:01PM\xa0BST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t03:34PM\xa0BST\n\t\t\t\t\t"
+    ]
+}

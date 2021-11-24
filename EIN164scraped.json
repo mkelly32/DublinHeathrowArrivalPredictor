@@ -1,0 +1,70 @@
+{"listOfDates": ["24-Nov-2021 ", "23-Nov-2021 ", "22-Nov-2021 ", "21-Nov-2021 ", "20-Nov-2021 ", "19-Nov-2021 ", "18-Nov-2021 ", "17-Nov-2021 ", "16-Nov-2021 ", "15-Nov-2021 ", "14-Nov-2021 ", "13-Nov-2021 ", "12-Nov-2021 ", "11-Nov-2021 ", "10-Nov-2021 ", "09-Nov-2021 ", "08-Nov-2021 ", "07-Nov-2021 ", "06-Nov-2021 ", "05-Nov-2021 ", "04-Nov-2021 ", "03-Nov-2021 ", "02-Nov-2021 ", "01-Nov-2021 ", "31-Oct-2021 ", "30-Oct-2021 ", "23-Oct-2021 ", "16-Oct-2021 ", "09-Oct-2021 ", "02-Oct-2021 ", "25-Sep-2021 ", "18-Sep-2021 "
+    ], "listOfAircrafts": ["A21N", "A21N", "A21N", "A21N", "A320", "A320", "A21N", "A21N", "A320", "A21N", "A21N", "A320", "A21N", "A21N", "A21N", "A320", "A21N", "A21N", "A21N", "A21N", "A320", "A21N", "A21N", "A320", "A21N", "A21N", "A21N", "A21N", "A21N", "A21N", "A21N", "A21N"
+    ], "listOfDelays": [
+        ["(on time)", "(on time)"
+        ],
+        ["(14 minutes early)", "(on time)"
+        ],
+        ["(12 minutes early)", "(on time)"
+        ],
+        ["(15 minutes early)", "(on time)"
+        ],
+        ["(19 minutes early)", "(on time)"
+        ],
+        ["(3 minutes early)", "(2 minutes early)"
+        ],
+        ["(25 minutes early)", "(on time)"
+        ],
+        ["(25 minutes early)", "(on time)"
+        ],
+        ["(18 minutes early)", "(5 minutes early)"
+        ],
+        ["(17 minutes early)", "(on time)"
+        ],
+        ["(on time)", "(on time)"
+        ],
+        ["(20 minutes early)", "(on time)"
+        ],
+        ["(15 minutes early)", "(on time)"
+        ],
+        ["(12 minutes early)", "(on time)"
+        ],
+        ["(17 minutes early)", "(on time)"
+        ],
+        ["(17 minutes early)", "(on time)"
+        ],
+        ["(8 minutes early)", "(on time)"
+        ],
+        ["(16 minutes early)", "(on time)"
+        ],
+        ["(25 minutes early)", "(on time)"
+        ],
+        ["(25 minutes early)", "(on time)"
+        ],
+        ["(3 minutes early)", "(on time)"
+        ],
+        ["(on time)", "(on time)"
+        ],
+        ["(7 minutes early)", "(on time)"
+        ],
+        ["(18 minutes early)", "(on time)"
+        ],
+        ["(9 minutes early)", "(on time)"
+        ],
+        ["(16 minutes early)", "(on time)"
+        ],
+        ["(12 minutes early)", "(on time)"
+        ],
+        ["(27 minutes early)", "(on time)"
+        ],
+        ["(22 minutes early)", "(on time)"
+        ],
+        ["(24 minutes early)", "(on time)"
+        ],
+        ["(21 minutes early)", "(on time)"
+        ],
+        ["(21 minutes early)", "(on time)"
+        ]
+    ], "listOfScheduledTakeOffTimes": ["\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t12: 05PM\xa0IST\n\t\t\t\t\t"
+    ]
+}

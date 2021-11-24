@@ -1,0 +1,57 @@
+{
+    "listOfDates": ["24-Nov-2021 ", "23-Nov-2021 ", "22-Nov-2021 ", "21-Nov-2021 ", "20-Nov-2021 ", "19-Nov-2021 ", "18-Nov-2021 ", "18-Nov-2021 ", "17-Nov-2021 ", "16-Nov-2021 ", "15-Nov-2021 ", "14-Nov-2021 ", "13-Nov-2021 ", "12-Nov-2021 ", "11-Nov-2021 ", "10-Nov-2021 ", "09-Nov-2021 ", "08-Nov-2021 ", "07-Nov-2021 ", "06-Nov-2021 ", "05-Nov-2021 ", "04-Nov-2021 ", "03-Nov-2021 ", "02-Nov-2021 ", "01-Nov-2021 ", "31-Oct-2021 "
+    ], "listOfAircrafts": ["A319", "A320", "A319", "A320", "A319", "A320", "Unknown", "A319", "A320", "A21N", "A319", "A320", "A319", "A320", "A20N", "A320", "A320", "A320", "A320", "A319", "A320", "A319", "A21N", "A320", "A319", "A320"
+    ], "listOfDelays": [
+        ["(on time)", "(on time)"
+        ],
+        ["(3 minutes early)", "(11 minutes early)"
+        ],
+        ["(29 minutes early)", "(12 minutes early)"
+        ],
+        ["(8 minutes early)", "(on time)"
+        ],
+        ["(14 minutes early)", "(on time)"
+        ],
+        ["(on time)", "(on time)"
+        ], "ecnountered error",
+        ["(29 minutes early)", "(11 minutes early)"
+        ],
+        ["(28 minutes early)", "(on time)"
+        ],
+        ["(2 minutes early)", "(4 minutes early)"
+        ],
+        ["(25 minutes early)", "(11 minutes early)"
+        ],
+        ["(on time)", "(on time)"
+        ],
+        ["(on time)", "(on time)"
+        ],
+        ["(20 minutes early)", "(7 minutes early)"
+        ],
+        ["(16 minutes early)", "(3 minutes early)"
+        ],
+        ["(17 minutes early)", "(2 minutes early)"
+        ],
+        ["(12 minutes early)", "(on time)"
+        ],
+        ["(on time)", "(on time)"
+        ],
+        ["(16 minutes early)", "(3 minutes early)"
+        ],
+        ["(17 minutes early)", "(on time)"
+        ],
+        ["(14 minutes early)", "(on time)"
+        ],
+        ["(6 minutes early)", "(on time)"
+        ],
+        ["(9 minutes early)", "(on time)"
+        ],
+        ["(32 minutes early)", "(15 minutes early)"
+        ],
+        ["(22 minutes early)", "(6 minutes early)"
+        ],
+        ["(8 minutes early)", "(on time)"
+        ]
+    ], "listOfScheduledTakeOffTimes": ["\n\t\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 55AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 50AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 50AM\xa0GMT\n\t\t\t\t\t", "ecnountered error", "\n\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 55AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 50AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 50AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 55AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 50AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 50AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 55AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 40AM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t10: 50AM\xa0GMT\n\t\t\t\t\t"
+    ]
+}
