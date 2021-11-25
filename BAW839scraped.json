@@ -55,104 +55,104 @@
     ],
     "listOfDelays": [
         [
-            "(on time)",
-            "(on time)"
+            "on time",
+            "on time"
         ],
         [
-            "(on time)",
-            "(on time)"
+            "on time",
+            "on time"
         ],
         [
-            "(9 minutes early)",
-            "(on time)"
+            "9 minutes early",
+            "on time"
         ],
         [
-            "(22 minutes early)",
-            "(9 minutes early)"
+            "22 minutes early",
+            "9 minutes early"
         ],
         [
-            "(on time)",
-            "(6 minutes early)"
+            "on time",
+            "6 minutes early"
         ],
         [
-            "(5 minutes early)",
-            "(on time)"
+            "5 minutes early",
+            "on time"
         ],
         [
-            "(11 minutes early)",
-            "(3 minutes early)"
+            "11 minutes early",
+            "3 minutes early"
         ],
         [
-            "(23 minutes early)",
-            "(13 minutes early)"
+            "23 minutes early",
+            "13 minutes early"
         ],
         [
-            "(4 minutes early)",
-            "(2 minutes early)"
+            "4 minutes early",
+            "2 minutes early"
         ],
         [
-            "(23 minutes late)",
-            "(on time)"
+            "23 minutes late",
+            "on time"
         ],
         [
-            "(on time)",
-            "(2 minutes early)"
+            "on time",
+            "2 minutes early"
         ],
         [
-            "(21 minutes early)",
-            "(9 minutes early)"
+            "21 minutes early",
+            "9 minutes early"
         ],
         [
-            "(9 minutes early)",
-            "(10 minutes early)"
+            "9 minutes early",
+            "10 minutes early"
         ],
         [
-            "(17 minutes early)",
-            "(9 minutes early)"
+            "17 minutes early",
+            "9 minutes early"
         ],
         [
-            "(7 minutes early)",
-            "(17 minutes early)"
+            "7 minutes early",
+            "17 minutes early"
         ],
         [
-            "(13 minutes early)",
-            "(5 minutes early)"
+            "13 minutes early",
+            "5 minutes early"
         ],
         [
-            "(14 minutes early)",
-            "(on time)"
+            "14 minutes early",
+            "on time"
         ],
         [
-            "(10 minutes early)",
-            "(on time)"
+            "10 minutes early",
+            "on time"
         ],
         [
-            "(on time)",
-            "(on time)"
+            "on time",
+            "on time"
         ],
         [
-            "(on time)",
-            "(2 minutes early)"
+            "on time",
+            "2 minutes early"
         ],
         [
-            "(4 minutes early)",
-            "(12 minutes early)"
+            "4 minutes early",
+            "12 minutes early"
         ],
         [
-            "(14 minutes early)",
-            "(3 minutes early)"
+            "14 minutes early",
+            "3 minutes early"
         ],
         [
-            "(17 minutes early)",
-            "(9 minutes early)"
+            "17 minutes early",
+            "9 minutes early"
         ],
         [
-            "(13 minutes early)",
-            "(8 minutes early)"
+            "13 minutes early",
+            "8 minutes early"
         ],
         [
-            "(on time)",
-            "(on time)"
+            "on time",
+            "on time"
         ]
     ],
     "listOfScheduledTakeOffTimes": [

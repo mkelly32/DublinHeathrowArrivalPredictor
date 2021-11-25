@@ -33,60 +33,60 @@
     ],
     "listOfDelays": [
         [
-            "(3 minutes early)",
-            "(3 minutes early)"
+            "3 minutes early",
+            "3 minutes early"
         ],
         [
-            "(4 minutes early)",
-            "(4 minutes early)"
+            "4 minutes early",
+            "4 minutes early"
         ],
         [
-            "(5 minutes early)",
-            "(4 minutes early)"
+            "5 minutes early",
+            "4 minutes early"
         ],
         [
-            "(9 minutes late)",
-            "(on time)"
+            "9 minutes late",
+            "on time"
         ],
         [
-            "(1 minute late)",
-            "(on time)"
+            "1 minute late",
+            "on time"
         ],
         [
-            "(2 minutes early)",
-            "(2 minutes early)"
+            "2 minutes early",
+            "2 minutes early"
         ],
         [
-            "(1 minute late)",
-            "(on time)"
+            "1 minute late",
+            "on time"
         ],
         [
-            "(36 minutes late)",
-            "(37 minutes late)"
+            "36 minutes late",
+            "37 minutes late"
         ],
         [
-            "(4 minutes early)",
-            "(4 minutes early)"
+            "4 minutes early",
+            "4 minutes early"
         ],
         [
-            "(10 minutes early)",
-            "(11 minutes early)"
+            "10 minutes early",
+            "11 minutes early"
         ],
         [
-            "(4 minutes early)",
-            "(4 minutes early)"
+            "4 minutes early",
+            "4 minutes early"
         ],
         [
-            "(42 minutes late)",
-            "(42 minutes late)"
+            "42 minutes late",
+            "42 minutes late"
         ],
         [
-            "(18 minutes early)",
-            "(17 minutes early)"
+            "18 minutes early",
+            "17 minutes early"
         ],
         [
-            "(17 minutes early)",
-            "(17 minutes early)"
+            "17 minutes early",
+            "17 minutes early"
         ]
     ],
     "listOfScheduledTakeOffTimes": [
