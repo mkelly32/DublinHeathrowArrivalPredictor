@@ -63,27 +63,15 @@
             "on time"
         ],
         [
-            "9 minutes early",
+            "9s early",
             "on time"
         ],
         [
-            "18 minutes late",
+            "18s late",
             "on time"
         ],
         [
-            "9 minutes early",
-            "on time"
-        ],
-        [
-            "on time",
-            "on time"
-        ],
-        [
-            "3 minutes early",
-            "on time"
-        ],
-        [
-            "4 minutes early",
+            "9s early",
             "on time"
         ],
         [
@@ -91,55 +79,11 @@
             "on time"
         ],
         [
-            "12 minutes early",
+            "3s early",
             "on time"
         ],
         [
-            "2 minutes early",
-            "on time"
-        ],
-        [
-            "14 minutes early",
-            "on time"
-        ],
-        [
-            "4 minutes early",
-            "on time"
-        ],
-        [
-            "16 minutes early",
-            "3 minutes early"
-        ],
-        [
-            "8 minutes early",
-            "on time"
-        ],
-        [
-            "6 minutes early",
-            "on time"
-        ],
-        [
-            "14 minutes early",
-            "on time"
-        ],
-        [
-            "17 minutes early",
-            "on time"
-        ],
-        [
-            "12 minutes early",
-            "on time"
-        ],
-        [
-            "7 minutes early",
-            "on time"
-        ],
-        [
-            "12 minutes early",
-            "on time"
-        ],
-        [
-            "8 minutes early",
+            "4s early",
             "on time"
         ],
         [
@@ -147,11 +91,67 @@
             "on time"
         ],
         [
-            "4 minutes early",
+            "12s early",
             "on time"
         ],
         [
-            "3 minutes early",
+            "2s early",
+            "on time"
+        ],
+        [
+            "14s early",
+            "on time"
+        ],
+        [
+            "4s early",
+            "on time"
+        ],
+        [
+            "16s early",
+            "3s early"
+        ],
+        [
+            "8s early",
+            "on time"
+        ],
+        [
+            "6s early",
+            "on time"
+        ],
+        [
+            "14s early",
+            "on time"
+        ],
+        [
+            "17s early",
+            "on time"
+        ],
+        [
+            "12s early",
+            "on time"
+        ],
+        [
+            "7s early",
+            "on time"
+        ],
+        [
+            "12s early",
+            "on time"
+        ],
+        [
+            "8s early",
+            "on time"
+        ],
+        [
+            "on time",
+            "on time"
+        ],
+        [
+            "4s early",
+            "on time"
+        ],
+        [
+            "3s early",
             "on time"
         ]
     ],
