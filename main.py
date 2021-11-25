@@ -1,9 +1,13 @@
 import json
+from datetime import datetime
 
 def calculateDelta(delta: str) -> int:
-    if delta == "(on time)":
+    if delta == "on time":
         return 0
-    return 0 
+    else:
+        time = delta.split()
+        direction = 1 if time[1] == "late" else -1
+        return int(time[0]) * direction
 
 def main():
     files = [
@@ -31,9 +35,11 @@ def main():
         flight = flight_data[i]
         for j in range(len(flight["listOfDates"])):
             clean_data.append({
-                "date": flight["listOfDates"][j],
+                "date": datetime.strptime(flight["listOfDates"][j]),
                 "delta": calculateDelta(flight["listOfDelays"][j][1])
             })
+    clean_data.sort(key = lambda item: item.get("date"))
+    print(clean_data)
 
 if __name__ == "__main__":
     main()

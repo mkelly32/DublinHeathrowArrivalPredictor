@@ -1,30 +1,30 @@
 {
     "listOfDates": [
-        "25-Nov-2021 ",
-        "24-Nov-2021 ",
-        "23-Nov-2021 ",
-        "22-Nov-2021 ",
-        "21-Nov-2021 ",
-        "20-Nov-2021 ",
-        "19-Nov-2021 ",
-        "18-Nov-2021 ",
-        "17-Nov-2021 ",
-        "16-Nov-2021 ",
-        "15-Nov-2021 ",
-        "14-Nov-2021 ",
-        "13-Nov-2021 ",
-        "12-Nov-2021 ",
-        "11-Nov-2021 ",
-        "10-Nov-2021 ",
-        "09-Nov-2021 ",
-        "08-Nov-2021 ",
-        "07-Nov-2021 ",
-        "06-Nov-2021 ",
-        "05-Nov-2021 ",
-        "04-Nov-2021 ",
-        "03-Nov-2021 ",
-        "02-Nov-2021 ",
-        "01-Nov-2021 "
+        "25/11/2021 ",
+        "24/11/2021 ",
+        "23/11/2021 ",
+        "22/11/2021 ",
+        "21/11/2021 ",
+        "20/11/2021 ",
+        "19/11/2021 ",
+        "18/11/2021 ",
+        "17/11/2021 ",
+        "16/11/2021 ",
+        "15/11/2021 ",
+        "14/11/2021 ",
+        "13/11/2021 ",
+        "12/11/2021 ",
+        "11/11/2021 ",
+        "10/11/2021 ",
+        "09/11/2021 ",
+        "08/11/2021 ",
+        "07/11/2021 ",
+        "06/11/2021 ",
+        "05/11/2021 ",
+        "04/11/2021 ",
+        "03/11/2021 ",
+        "02/11/2021 ",
+        "01/11/2021 "
     ],
     "listOfAircrafts": [
         "A21N",
@@ -63,27 +63,15 @@
             "on time"
         ],
         [
-            "9s early",
+            "9 early",
             "on time"
         ],
         [
-            "18s late",
+            "18 late",
             "on time"
         ],
         [
-            "9s early",
-            "on time"
-        ],
-        [
-            "on time",
-            "on time"
-        ],
-        [
-            "3s early",
-            "on time"
-        ],
-        [
-            "4s early",
+            "9 early",
             "on time"
         ],
         [
@@ -91,55 +79,11 @@
             "on time"
         ],
         [
-            "12s early",
+            "3 early",
             "on time"
         ],
         [
-            "2s early",
-            "on time"
-        ],
-        [
-            "14s early",
-            "on time"
-        ],
-        [
-            "4s early",
-            "on time"
-        ],
-        [
-            "16s early",
-            "3s early"
-        ],
-        [
-            "8s early",
-            "on time"
-        ],
-        [
-            "6s early",
-            "on time"
-        ],
-        [
-            "14s early",
-            "on time"
-        ],
-        [
-            "17s early",
-            "on time"
-        ],
-        [
-            "12s early",
-            "on time"
-        ],
-        [
-            "7s early",
-            "on time"
-        ],
-        [
-            "12s early",
-            "on time"
-        ],
-        [
-            "8s early",
+            "4 early",
             "on time"
         ],
         [
@@ -147,11 +91,67 @@
             "on time"
         ],
         [
-            "4s early",
+            "12 early",
             "on time"
         ],
         [
-            "3s early",
+            "2 early",
+            "on time"
+        ],
+        [
+            "14 early",
+            "on time"
+        ],
+        [
+            "4 early",
+            "on time"
+        ],
+        [
+            "16 early",
+            "3 early"
+        ],
+        [
+            "8 early",
+            "on time"
+        ],
+        [
+            "6 early",
+            "on time"
+        ],
+        [
+            "14 early",
+            "on time"
+        ],
+        [
+            "17 early",
+            "on time"
+        ],
+        [
+            "12 early",
+            "on time"
+        ],
+        [
+            "7 early",
+            "on time"
+        ],
+        [
+            "12 early",
+            "on time"
+        ],
+        [
+            "8 early",
+            "on time"
+        ],
+        [
+            "on time",
+            "on time"
+        ],
+        [
+            "4 early",
+            "on time"
+        ],
+        [
+            "3 early",
             "on time"
         ]
     ],
