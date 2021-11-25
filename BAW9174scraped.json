@@ -36,10 +36,10 @@
         ]
     ],
     "listOfScheduledTakeOffTimes": [
-        "12:13PMa0GMT",
-        "01:31PMa0BST",
-        "09:10PMa0BST",
-        "08:01PMa0BST",
-        "03:34PMa0BST"
+        "12:13",
+        "01:31",
+        "09:10",
+        "08:01",
+        "03:34"
     ]
 }

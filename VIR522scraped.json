@@ -1,34 +1,108 @@
-{"listOfDates": ["21-Nov-2021 ", "14-Nov-2021 ", "07-Nov-2021 ", "31-Oct-2021 ", "29-Oct-2021 ", "24-Oct-2021 ", "17-Oct-2021 ", "15-Oct-2021 ", "10-Oct-2021 ", "03-Oct-2021 ", "26-Sep-2021 ", "12-Sep-2021 ", "05-Sep-2021 ", "29-Aug-2021 "
-    ], "listOfAircrafts": ["B789", "A333", "B789", "A35K", "A35K", "A35K", "B789", "A35K", "B789", "A35K", "A35K", "B789", "A35K", "A35K"
-    ], "listOfDelays": [
-        ["(3 minutes early)", "(3 minutes early)"
+{
+    "listOfDates": [
+        "21-Nov-2021 ",
+        "14-Nov-2021 ",
+        "07-Nov-2021 ",
+        "31-Oct-2021 ",
+        "29-Oct-2021 ",
+        "24-Oct-2021 ",
+        "17-Oct-2021 ",
+        "15-Oct-2021 ",
+        "10-Oct-2021 ",
+        "03-Oct-2021 ",
+        "26-Sep-2021 ",
+        "12-Sep-2021 ",
+        "05-Sep-2021 ",
+        "29-Aug-2021 "
+    ],
+    "listOfAircrafts": [
+        "B789",
+        "A333",
+        "B789",
+        "A35K",
+        "A35K",
+        "A35K",
+        "B789",
+        "A35K",
+        "B789",
+        "A35K",
+        "A35K",
+        "B789",
+        "A35K",
+        "A35K"
+    ],
+    "listOfDelays": [
+        [
+            "(3 minutes early)",
+            "(3 minutes early)"
         ],
-        ["(4 minutes early)", "(4 minutes early)"
+        [
+            "(4 minutes early)",
+            "(4 minutes early)"
         ],
-        ["(5 minutes early)", "(4 minutes early)"
+        [
+            "(5 minutes early)",
+            "(4 minutes early)"
         ],
-        ["(9 minutes late)", "(on time)"
+        [
+            "(9 minutes late)",
+            "(on time)"
         ],
-        ["(1 minute late)", "(on time)"
+        [
+            "(1 minute late)",
+            "(on time)"
         ],
-        ["(2 minutes early)", "(2 minutes early)"
+        [
+            "(2 minutes early)",
+            "(2 minutes early)"
         ],
-        ["(1 minute late)", "(on time)"
+        [
+            "(1 minute late)",
+            "(on time)"
         ],
-        ["(36 minutes late)", "(37 minutes late)"
+        [
+            "(36 minutes late)",
+            "(37 minutes late)"
         ],
-        ["(4 minutes early)", "(4 minutes early)"
+        [
+            "(4 minutes early)",
+            "(4 minutes early)"
         ],
-        ["(10 minutes early)", "(11 minutes early)"
+        [
+            "(10 minutes early)",
+            "(11 minutes early)"
         ],
-        ["(4 minutes early)", "(4 minutes early)"
+        [
+            "(4 minutes early)",
+            "(4 minutes early)"
         ],
-        ["(42 minutes late)", "(42 minutes late)"
+        [
+            "(42 minutes late)",
+            "(42 minutes late)"
         ],
-        ["(18 minutes early)", "(17 minutes early)"
+        [
+            "(18 minutes early)",
+            "(17 minutes early)"
         ],
-        ["(17 minutes early)", "(17 minutes early)"
+        [
+            "(17 minutes early)",
+            "(17 minutes early)"
         ]
-    ], "listOfScheduledTakeOffTimes": ["\n\t\t\t\t\t\t\t08: 52PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t08: 48PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t08: 52PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t08: 52PM\xa0GMT\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t03: 33PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t09: 03PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t08: 43PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t02: 42PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t03: 37PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t03: 55PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t06: 24PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t05: 40PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t06: 47PM\xa0IST\n\t\t\t\t\t", "\n\t\t\t\t\t\t\t06: 35PM\xa0IST\n\t\t\t\t\t"
+    ],
+    "listOfScheduledTakeOffTimes": [
+        "08: 52",
+        "08: 48",
+        "08: 52",
+        "08: 52",
+        "03: 33",
+        "09: 03",
+        "08: 43",
+        "02: 42",
+        "03: 37",
+        "03: 55",
+        "06: 24",
+        "05: 40",
+        "06: 47",
+        "06: 35"
     ]
 }
