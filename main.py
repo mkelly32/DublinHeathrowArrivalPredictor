@@ -23,7 +23,7 @@ def main():
         
     for i in range(len(files)):
         flight = flight_data[i]
-        for j in range(flight.listOfDates):
+        for j in flight.keys():
             print(j)
 
 if __name__ == "__main__":
