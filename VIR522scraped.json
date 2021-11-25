@@ -33,19 +33,19 @@
     ],
     "listOfDelays": [
         [
-            "3 minutes early",
-            "3 minutes early"
+            "3 minute early",
+            "3 minute early"
         ],
         [
-            "4 minutes early",
-            "4 minutes early"
+            "4 minute early",
+            "4 minute early"
         ],
         [
-            "5 minutes early",
-            "4 minutes early"
+            "5 minute early",
+            "4 minute early"
         ],
         [
-            "9 minutes late",
+            "9 minute late",
             "on time"
         ],
         [
@@ -53,40 +53,40 @@
             "on time"
         ],
         [
-            "2 minutes early",
-            "2 minutes early"
+            "2 minute early",
+            "2 minute early"
         ],
         [
             "1 minute late",
             "on time"
         ],
         [
-            "36 minutes late",
-            "37 minutes late"
+            "36 minute late",
+            "37 minute late"
         ],
         [
-            "4 minutes early",
-            "4 minutes early"
+            "4 minute early",
+            "4 minute early"
         ],
         [
-            "10 minutes early",
-            "11 minutes early"
+            "10 minute early",
+            "11 minute early"
         ],
         [
-            "4 minutes early",
-            "4 minutes early"
+            "4 minute early",
+            "4 minute early"
         ],
         [
-            "42 minutes late",
-            "42 minutes late"
+            "42 minute late",
+            "42 minute late"
         ],
         [
-            "18 minutes early",
-            "17 minutes early"
+            "18 minute early",
+            "17 minute early"
         ],
         [
-            "17 minutes early",
-            "17 minutes early"
+            "17 minute early",
+            "17 minute early"
         ]
     ],
     "listOfScheduledTakeOffTimes": [
