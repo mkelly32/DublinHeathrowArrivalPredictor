@@ -1,0 +1,1269 @@
+{
+    "DailyWeather": [
+        {
+            "Date": "1627862400",
+            "Data": [
+                {
+                    "Temperature": 55.69,
+                    "Rain": 0.0002,
+                    "Wind speed": 7.93,
+                    "Wind Direction": 330
+                }
+            ]
+        },
+        {
+            "Date": "1627948800",
+            "Data": [
+                {
+                    "Temperature": 53.85,
+                    "Rain": 0,
+                    "Wind speed": 4.72,
+                    "Wind Direction": 240
+                }
+            ]
+        },
+        {
+            "Date": "1628035200",
+            "Data": [
+                {
+                    "Temperature": 55.68,
+                    "Rain": 0.0004,
+                    "Wind speed": 3.45,
+                    "Wind Direction": 220
+                }
+            ]
+        },
+        {
+            "Date": "1628121600",
+            "Data": [
+                {
+                    "Temperature": 59.31,
+                    "Rain": 0.0007,
+                    "Wind speed": 9.22,
+                    "Wind Direction": 151
+                }
+            ]
+        },
+        {
+            "Date": "1628208000",
+            "Data": [
+                {
+                    "Temperature": 59.28,
+                    "Rain": 0.0093,
+                    "Wind speed": 4.82,
+                    "Wind Direction": 240
+                }
+            ]
+        },
+        {
+            "Date": "1628294400",
+            "Data": [
+                {
+                    "Temperature": 57.51,
+                    "Rain": 0.0159,
+                    "Wind speed": 7.01,
+                    "Wind Direction": 230
+                }
+            ]
+        },
+        {
+            "Date": "1628380800",
+            "Data": [
+                {
+                    "Temperature": 57.51,
+                    "Rain": 0.0031,
+                    "Wind speed": 22.2,
+                    "Wind Direction": 4
+                }
+            ]
+        },
+        {
+            "Date": "1628467200",
+            "Data": [
+                {
+                    "Temperature": 53.89,
+                    "Rain": 0.0004,
+                    "Wind speed": 8.17,
+                    "Wind Direction": 240
+                }
+            ]
+        },
+        {
+            "Date": "1628553600",
+            "Data": [
+                {
+                    "Temperature": 55.76,
+                    "Rain": 0.0006,
+                    "Wind speed": 10.25,
+                    "Wind Direction": 281
+                }
+            ]
+        },
+        {
+            "Date": "1628640000",
+            "Data": [
+                {
+                    "Temperature": 61.05,
+                    "Rain": 0.0008,
+                    "Wind speed": 7.73,
+                    "Wind Direction": 192
+                }
+            ]
+        },
+        {
+            "Date": "1628726400",
+            "Data": [
+                {
+                    "Temperature": 52.13,
+                    "Rain": 0,
+                    "Wind speed": 5.85,
+                    "Wind Direction": 210
+                }
+            ]
+        },
+        {
+            "Date": "1628812800",
+            "Data": [
+                {
+                    "Temperature": 55.73,
+                    "Rain": 0,
+                    "Wind speed": 10.34,
+                    "Wind Direction": 221
+                }
+            ]
+        },
+        {
+            "Date": "1628899200",
+            "Data": [
+                {
+                    "Temperature": 57.46,
+                    "Rain": 0,
+                    "Wind speed": 9.26,
+                    "Wind Direction": 250
+                }
+            ]
+        },
+        {
+            "Date": "1628985600",
+            "Data": [
+                {
+                    "Temperature": 57.46,
+                    "Rain": 0.004,
+                    "Wind speed": 4.82,
+                    "Wind Direction": 133
+                }
+            ]
+        },
+        {
+            "Date": "1629072000",
+            "Data": [
+                {
+                    "Temperature": 55.55,
+                    "Rain": 0,
+                    "Wind speed": 14.94,
+                    "Wind Direction": 280
+                }
+            ]
+        },
+        {
+            "Date": "1629158400",
+            "Data": [
+                {
+                    "Temperature": 55.61,
+                    "Rain": 0.0005,
+                    "Wind speed": 16.05,
+                    "Wind Direction": 270
+                }
+            ]
+        },
+        {
+            "Date": "1629244800",
+            "Data": [
+                {
+                    "Temperature": 53.87,
+                    "Rain": 0.0003,
+                    "Wind speed": 12.75,
+                    "Wind Direction": 281
+                }
+            ]
+        },
+        {
+            "Date": "1629331200",
+            "Data": [
+                {
+                    "Temperature": 55.44,
+                    "Rain": 0,
+                    "Wind speed": 3.46,
+                    "Wind Direction": 240
+                }
+            ]
+        },
+        {
+            "Date": "1629417600",
+            "Data": [
+                {
+                    "Temperature": 57.5,
+                    "Rain": 0,
+                    "Wind speed": 3.35,
+                    "Wind Direction": 102
+                }
+            ]
+        },
+        {
+            "Date": "1629504000",
+            "Data": [
+                {
+                    "Temperature": 61.05,
+                    "Rain": 0.0031,
+                    "Wind speed": 7.06,
+                    "Wind Direction": 151
+                }
+            ]
+        },
+        {
+            "Date": "1629590400",
+            "Data": [
+                {
+                    "Temperature": 55.71,
+                    "Rain": 0.0019,
+                    "Wind speed": 7.04,
+                    "Wind Direction": 252
+                }
+            ]
+        },
+        {
+            "Date": "1629676800",
+            "Data": [
+                {
+                    "Temperature": 55.66,
+                    "Rain": 0.0002,
+                    "Wind speed": 2.28,
+                    "Wind Direction": 300
+                }
+            ]
+        },
+        {
+            "Date": "1629763200",
+            "Data": [
+                {
+                    "Temperature": 53.84,
+                    "Rain": 0,
+                    "Wind speed": 1.22,
+                    "Wind Direction": 7
+                }
+            ]
+        },
+        {
+            "Date": "1629849600",
+            "Data": [
+                {
+                    "Temperature": 50.35,
+                    "Rain": 0,
+                    "Wind speed": 3.35,
+                    "Wind Direction": 41
+                }
+            ]
+        },
+        {
+            "Date": "1629936000",
+            "Data": [
+                {
+                    "Temperature": 53.74,
+                    "Rain": 0,
+                    "Wind speed": 1.16,
+                    "Wind Direction": 357
+                }
+            ]
+        },
+        {
+            "Date": "1630022400",
+            "Data": [
+                {
+                    "Temperature": 57.3,
+                    "Rain": 0,
+                    "Wind speed": 5.76,
+                    "Wind Direction": 60
+                }
+            ]
+        },
+        {
+            "Date": "1630108800",
+            "Data": [
+                {
+                    "Temperature": 46.69,
+                    "Rain": 0,
+                    "Wind speed": 4.64,
+                    "Wind Direction": 90
+                }
+            ]
+        },
+        {
+            "Date": "1630195200",
+            "Data": [
+                {
+                    "Temperature": 50.24,
+                    "Rain": 0,
+                    "Wind speed": 2.01,
+                    "Wind Direction": 289
+                }
+            ]
+        },
+        {
+            "Date": "1630281600",
+            "Data": [
+                {
+                    "Temperature": 59.01,
+                    "Rain": 0.001,
+                    "Wind speed": 8,
+                    "Wind Direction": 70
+                }
+            ]
+        },
+        {
+            "Date": "1630368000",
+            "Data": [
+                {
+                    "Temperature": 57.3,
+                    "Rain": 0.0002,
+                    "Wind speed": 10.18,
+                    "Wind Direction": 41
+                }
+            ]
+        },
+        {
+            "Date": "1630454400",
+            "Data": [
+                {
+                    "Temperature": 57.32,
+                    "Rain": 0,
+                    "Wind speed": 7.97,
+                    "Wind Direction": 41
+                }
+            ]
+        },
+        {
+            "Date": "1630540800",
+            "Data": [
+                {
+                    "Temperature": 50.16,
+                    "Rain": 0,
+                    "Wind speed": 5.8,
+                    "Wind Direction": 60
+                }
+            ]
+        },
+        {
+            "Date": "1630627200",
+            "Data": [
+                {
+                    "Temperature": 46.75,
+                    "Rain": 0,
+                    "Wind speed": 6.83,
+                    "Wind Direction": 50
+                }
+            ]
+        },
+        {
+            "Date": "1630713600",
+            "Data": [
+                {
+                    "Temperature": 55.58,
+                    "Rain": 0,
+                    "Wind speed": 6.81,
+                    "Wind Direction": 41
+                }
+            ]
+        },
+        {
+            "Date": "1630800000",
+            "Data": [
+                {
+                    "Temperature": 59.18,
+                    "Rain": 0.0007,
+                    "Wind speed": 6.91,
+                    "Wind Direction": 110
+                }
+            ]
+        },
+        {
+            "Date": "1630886400",
+            "Data": [
+                {
+                    "Temperature": 62.67,
+                    "Rain": 0.0003,
+                    "Wind speed": 4.69,
+                    "Wind Direction": 210
+                }
+            ]
+        },
+        {
+            "Date": "1630972800",
+            "Data": [
+                {
+                    "Temperature": 55.61,
+                    "Rain": 0,
+                    "Wind speed": 4.67,
+                    "Wind Direction": 101
+                }
+            ]
+        },
+        {
+            "Date": "1631059200",
+            "Data": [
+                {
+                    "Temperature": 55.54,
+                    "Rain": 0,
+                    "Wind speed": 4.65,
+                    "Wind Direction": 12
+                }
+            ]
+        },
+        {
+            "Date": "1631145600",
+            "Data": [
+                {
+                    "Temperature": 60.98,
+                    "Rain": 0.0179,
+                    "Wind speed": 4.09,
+                    "Wind Direction": 142
+                }
+            ]
+        },
+        {
+            "Date": "1631232000",
+            "Data": [
+                {
+                    "Temperature": 59.23,
+                    "Rain": 0.0019,
+                    "Wind speed": 0.13,
+                    "Wind Direction": 145
+                }
+            ]
+        },
+        {
+            "Date": "1631318400",
+            "Data": [
+                {
+                    "Temperature": 59.28,
+                    "Rain": 0.0004,
+                    "Wind speed": 9.18,
+                    "Wind Direction": 260
+                }
+            ]
+        },
+        {
+            "Date": "1631404800",
+            "Data": [
+                {
+                    "Temperature": 53.91,
+                    "Rain": 0.0003,
+                    "Wind speed": 7.93,
+                    "Wind Direction": 281
+                }
+            ]
+        },
+        {
+            "Date": "1631491200",
+            "Data": [
+                {
+                    "Temperature": 45.13,
+                    "Rain": 0,
+                    "Wind speed": 3.43,
+                    "Wind Direction": 108
+                }
+            ]
+        },
+        {
+            "Date": "1631577600",
+            "Data": [
+                {
+                    "Temperature": 59.17,
+                    "Rain": 0.0008,
+                    "Wind speed": 5.52,
+                    "Wind Direction": 149
+                }
+            ]
+        },
+        {
+            "Date": "1631664000",
+            "Data": [
+                {
+                    "Temperature": 59.11,
+                    "Rain": 0,
+                    "Wind speed": 3.02,
+                    "Wind Direction": 145
+                }
+            ]
+        },
+        {
+            "Date": "1631750400",
+            "Data": [
+                {
+                    "Temperature": 55.62,
+                    "Rain": 0.0002,
+                    "Wind speed": 7.97,
+                    "Wind Direction": 270
+                }
+            ]
+        },
+        {
+            "Date": "1631836800",
+            "Data": [
+                {
+                    "Temperature": 60.91,
+                    "Rain": 0,
+                    "Wind speed": 4.96,
+                    "Wind Direction": 151
+                }
+            ]
+        },
+        {
+            "Date": "1631923200",
+            "Data": [
+                {
+                    "Temperature": 55.57,
+                    "Rain": 0,
+                    "Wind speed": 5.81,
+                    "Wind Direction": 251
+                }
+            ]
+        },
+        {
+            "Date": "1632009600",
+            "Data": [
+                {
+                    "Temperature": 55.58,
+                    "Rain": 0.0003,
+                    "Wind speed": 5.82,
+                    "Wind Direction": 221
+                }
+            ]
+        },
+        {
+            "Date": "1632096000",
+            "Data": [
+                {
+                    "Temperature": 50.26,
+                    "Rain": 0,
+                    "Wind speed": 4.79,
+                    "Wind Direction": 231
+                }
+            ]
+        },
+        {
+            "Date": "1632182400",
+            "Data": [
+                {
+                    "Temperature": 55.51,
+                    "Rain": 0,
+                    "Wind speed": 5.85,
+                    "Wind Direction": 260
+                }
+            ]
+        },
+        {
+            "Date": "1632268800",
+            "Data": [
+                {
+                    "Temperature": 57.23,
+                    "Rain": 0,
+                    "Wind speed": 6.98,
+                    "Wind Direction": 221
+                }
+            ]
+        },
+        {
+            "Date": "1632355200",
+            "Data": [
+                {
+                    "Temperature": 61,
+                    "Rain": 0.0008,
+                    "Wind speed": 9.43,
+                    "Wind Direction": 240
+                }
+            ]
+        },
+        {
+            "Date": "1632441600",
+            "Data": [
+                {
+                    "Temperature": 57.2,
+                    "Rain": 0,
+                    "Wind speed": 8.28,
+                    "Wind Direction": 230
+                }
+            ]
+        },
+        {
+            "Date": "1632528000",
+            "Data": [
+                {
+                    "Temperature": 61.01,
+                    "Rain": 0,
+                    "Wind speed": 11.32,
+                    "Wind Direction": 259
+                }
+            ]
+        },
+        {
+            "Date": "1632614400",
+            "Data": [
+                {
+                    "Temperature": 60.96,
+                    "Rain": 0.0004,
+                    "Wind speed": 6.01,
+                    "Wind Direction": 191
+                }
+            ]
+        },
+        {
+            "Date": "1632700800",
+            "Data": [
+                {
+                    "Temperature": 52.11,
+                    "Rain": 0.0253,
+                    "Wind speed": 4.7,
+                    "Wind Direction": 102
+                }
+            ]
+        },
+        {
+            "Date": "1632787200",
+            "Data": [
+                {
+                    "Temperature": 48.57,
+                    "Rain": 0,
+                    "Wind speed": 9.39,
+                    "Wind Direction": 210
+                }
+            ]
+        },
+        {
+            "Date": "1632873600",
+            "Data": [
+                {
+                    "Temperature": 43.19,
+                    "Rain": 0,
+                    "Wind speed": 10.43,
+                    "Wind Direction": 260
+                }
+            ]
+        },
+        {
+            "Date": "1632960000",
+            "Data": [
+                {
+                    "Temperature": 50.34,
+                    "Rain": 0.02,
+                    "Wind speed": 11.59,
+                    "Wind Direction": 199
+                }
+            ]
+        },
+        {
+            "Date": "1633046400",
+            "Data": [
+                {
+                    "Temperature": 57.46,
+                    "Rain": 0.0009,
+                    "Wind speed": 10.61,
+                    "Wind Direction": 211
+                }
+            ]
+        },
+        {
+            "Date": "1633132800",
+            "Data": [
+                {
+                    "Temperature": 48.56,
+                    "Rain": 0,
+                    "Wind speed": 8.33,
+                    "Wind Direction": 201
+                }
+            ]
+        },
+        {
+            "Date": "1633219200",
+            "Data": [
+                {
+                    "Temperature": 46.66,
+                    "Rain": 0,
+                    "Wind speed": 11.59,
+                    "Wind Direction": 221
+                }
+            ]
+        },
+        {
+            "Date": "1633305600",
+            "Data": [
+                {
+                    "Temperature": 48.51,
+                    "Rain": 0,
+                    "Wind speed": 9.28,
+                    "Wind Direction": 230
+                }
+            ]
+        },
+        {
+            "Date": "1633392000",
+            "Data": [
+                {
+                    "Temperature": 48.53,
+                    "Rain": 0.0451,
+                    "Wind speed": 13.82,
+                    "Wind Direction": 311
+                }
+            ]
+        },
+        {
+            "Date": "1633478400",
+            "Data": [
+                {
+                    "Temperature": 44.93,
+                    "Rain": 0,
+                    "Wind speed": 10.41,
+                    "Wind Direction": 270
+                }
+            ]
+        },
+        {
+            "Date": "1633564800",
+            "Data": [
+                {
+                    "Temperature": 60.96,
+                    "Rain": 0,
+                    "Wind speed": 7.2,
+                    "Wind Direction": 192
+                }
+            ]
+        },
+        {
+            "Date": "1633651200",
+            "Data": [
+                {
+                    "Temperature": 60.97,
+                    "Rain": 0.0036,
+                    "Wind speed": 6.12,
+                    "Wind Direction": 171
+                }
+            ]
+        },
+        {
+            "Date": "1633737600",
+            "Data": [
+                {
+                    "Temperature": 60.94,
+                    "Rain": 0,
+                    "Wind speed": 13.83,
+                    "Wind Direction": 180
+                }
+            ]
+        },
+        {
+            "Date": "1633824000",
+            "Data": [
+                {
+                    "Temperature": 46.75,
+                    "Rain": 0,
+                    "Wind speed": 8,
+                    "Wind Direction": 281
+                }
+            ]
+        },
+        {
+            "Date": "1633910400",
+            "Data": [
+                {
+                    "Temperature": 44.72,
+                    "Rain": 0,
+                    "Wind speed": 9.13,
+                    "Wind Direction": 289
+                }
+            ]
+        },
+        {
+            "Date": "1633996800",
+            "Data": [
+                {
+                    "Temperature": 48.37,
+                    "Rain": 0,
+                    "Wind speed": 8.07,
+                    "Wind Direction": 270
+                }
+            ]
+        },
+        {
+            "Date": "1634083200",
+            "Data": [
+                {
+                    "Temperature": 53.72,
+                    "Rain": 0,
+                    "Wind speed": 10.1,
+                    "Wind Direction": 270
+                }
+            ]
+        },
+        {
+            "Date": "1634169600",
+            "Data": [
+                {
+                    "Temperature": 53.51,
+                    "Rain": 0.0002,
+                    "Wind speed": 4.79,
+                    "Wind Direction": 201
+                }
+            ]
+        },
+        {
+            "Date": "1634256000",
+            "Data": [
+                {
+                    "Temperature": 53.81,
+                    "Rain": 0.0055,
+                    "Wind speed": 8.12,
+                    "Wind Direction": 271
+                }
+            ]
+        },
+        {
+            "Date": "1634342400",
+            "Data": [
+                {
+                    "Temperature": 50.29,
+                    "Rain": 0.0016,
+                    "Wind speed": 4.66,
+                    "Wind Direction": 151
+                }
+            ]
+        },
+        {
+            "Date": "1634428800",
+            "Data": [
+                {
+                    "Temperature": 55.64,
+                    "Rain": 0.0031,
+                    "Wind speed": 9.41,
+                    "Wind Direction": 200
+                }
+            ]
+        },
+        {
+            "Date": "1634515200",
+            "Data": [
+                {
+                    "Temperature": 59.1,
+                    "Rain": 0.0013,
+                    "Wind speed": 11.1,
+                    "Wind Direction": 176
+                }
+            ]
+        },
+        {
+            "Date": "1634601600",
+            "Data": [
+                {
+                    "Temperature": 59.15,
+                    "Rain": 0,
+                    "Wind speed": 8.39,
+                    "Wind Direction": 202
+                }
+            ]
+        },
+        {
+            "Date": "1634688000",
+            "Data": [
+                {
+                    "Temperature": 52.08,
+                    "Rain": 0.0004,
+                    "Wind speed": 7.11,
+                    "Wind Direction": 222
+                }
+            ]
+        },
+        {
+            "Date": "1634774400",
+            "Data": [
+                {
+                    "Temperature": 46.69,
+                    "Rain": 0.0061,
+                    "Wind speed": 20.62,
+                    "Wind Direction": 329
+                }
+            ]
+        },
+        {
+            "Date": "1634860800",
+            "Data": [
+                {
+                    "Temperature": 44.88,
+                    "Rain": 0.0007,
+                    "Wind speed": 10.56,
+                    "Wind Direction": 241
+                }
+            ]
+        },
+        {
+            "Date": "1634947200",
+            "Data": [
+                {
+                    "Temperature": 50.16,
+                    "Rain": 0,
+                    "Wind speed": 7.02,
+                    "Wind Direction": 181
+                }
+            ]
+        },
+        {
+            "Date": "1635033600",
+            "Data": [
+                {
+                    "Temperature": 55.66,
+                    "Rain": 0.0177,
+                    "Wind speed": 18.58,
+                    "Wind Direction": 180
+                }
+            ]
+        },
+        {
+            "Date": "1635120000",
+            "Data": [
+                {
+                    "Temperature": 50.3,
+                    "Rain": 0,
+                    "Wind speed": 10.46,
+                    "Wind Direction": 221
+                }
+            ]
+        },
+        {
+            "Date": "1635206400",
+            "Data": [
+                {
+                    "Temperature": 50.27,
+                    "Rain": 0.0002,
+                    "Wind speed": 8.2,
+                    "Wind Direction": 200
+                }
+            ]
+        },
+        {
+            "Date": "1635292800",
+            "Data": [
+                {
+                    "Temperature": 60.96,
+                    "Rain": 0.0031,
+                    "Wind speed": 17.44,
+                    "Wind Direction": 200
+                }
+            ]
+        },
+        {
+            "Date": "1635379200",
+            "Data": [
+                {
+                    "Temperature": 59.25,
+                    "Rain": 0.0412,
+                    "Wind speed": 6.18,
+                    "Wind Direction": 165
+                }
+            ]
+        },
+        {
+            "Date": "1635465600",
+            "Data": [
+                {
+                    "Temperature": 50.31,
+                    "Rain": 0.0102,
+                    "Wind speed": 5.81,
+                    "Wind Direction": 271
+                }
+            ]
+        },
+        {
+            "Date": "1635552000",
+            "Data": [
+                {
+                    "Temperature": 48.55,
+                    "Rain": 0.0041,
+                    "Wind speed": 8.17,
+                    "Wind Direction": 221
+                }
+            ]
+        },
+        {
+            "Date": "1635638400",
+            "Data": [
+                {
+                    "Temperature": 52.09,
+                    "Rain": 0.0005,
+                    "Wind speed": 20.03,
+                    "Wind Direction": 153
+                }
+            ]
+        },
+        {
+            "Date": "1635724800",
+            "Data": [
+                {
+                    "Temperature": 46.74,
+                    "Rain": 0.0016,
+                    "Wind speed": 22.09,
+                    "Wind Direction": 260
+                }
+            ]
+        },
+        {
+            "Date": "1635811200",
+            "Data": [
+                {
+                    "Temperature": 41.29,
+                    "Rain": 0,
+                    "Wind speed": 8.14,
+                    "Wind Direction": 240
+                }
+            ]
+        },
+        {
+            "Date": "1635897600",
+            "Data": [
+                {
+                    "Temperature": 41.31,
+                    "Rain": 0.0003,
+                    "Wind speed": 11.46,
+                    "Wind Direction": 300
+                }
+            ]
+        },
+        {
+            "Date": "1635984000",
+            "Data": [
+                {
+                    "Temperature": 39.55,
+                    "Rain": 0.0003,
+                    "Wind speed": 10.42,
+                    "Wind Direction": 291
+                }
+            ]
+        },
+        {
+            "Date": "1636070400",
+            "Data": [
+                {
+                    "Temperature": 44.73,
+                    "Rain": 0,
+                    "Wind speed": 11.35,
+                    "Wind Direction": 270
+                }
+            ]
+        },
+        {
+            "Date": "1636156800",
+            "Data": [
+                {
+                    "Temperature": 48.38,
+                    "Rain": 0,
+                    "Wind speed": 9.26,
+                    "Wind Direction": 240
+                }
+            ]
+        },
+        {
+            "Date": "1636243200",
+            "Data": [
+                {
+                    "Temperature": 46.65,
+                    "Rain": 0,
+                    "Wind speed": 15.1,
+                    "Wind Direction": 260
+                }
+            ]
+        },
+        {
+            "Date": "1636329600",
+            "Data": [
+                {
+                    "Temperature": 42.96,
+                    "Rain": 0,
+                    "Wind speed": 3.48,
+                    "Wind Direction": 192
+                }
+            ]
+        },
+        {
+            "Date": "1636416000",
+            "Data": [
+                {
+                    "Temperature": 55.6,
+                    "Rain": 0,
+                    "Wind speed": 12.85,
+                    "Wind Direction": 211
+                }
+            ]
+        },
+        {
+            "Date": "1636502400",
+            "Data": [
+                {
+                    "Temperature": 50.25,
+                    "Rain": 0.0017,
+                    "Wind speed": 5.89,
+                    "Wind Direction": 230
+                }
+            ]
+        },
+        {
+            "Date": "1636588800",
+            "Data": [
+                {
+                    "Temperature": 48.36,
+                    "Rain": 0.0002,
+                    "Wind speed": 4.68,
+                    "Wind Direction": 171
+                }
+            ]
+        },
+        {
+            "Date": "1636675200",
+            "Data": [
+                {
+                    "Temperature": 53.92,
+                    "Rain": 0.0041,
+                    "Wind speed": 15.11,
+                    "Wind Direction": 200
+                }
+            ]
+        },
+        {
+            "Date": "1636761600",
+            "Data": [
+                {
+                    "Temperature": 50.1,
+                    "Rain": 0,
+                    "Wind speed": 21.63,
+                    "Wind Direction": 270
+                }
+            ]
+        },
+        {
+            "Date": "1636848000",
+            "Data": [
+                {
+                    "Temperature": 53.73,
+                    "Rain": 0.0009,
+                    "Wind speed": 1.21,
+                    "Wind Direction": 359
+                }
+            ]
+        },
+        {
+            "Date": "1636934400",
+            "Data": [
+                {
+                    "Temperature": 52.07,
+                    "Rain": 0.0016,
+                    "Wind speed": 5.95,
+                    "Wind Direction": 228
+                }
+            ]
+        },
+        {
+            "Date": "1637020800",
+            "Data": [
+                {
+                    "Temperature": 46.48,
+                    "Rain": 0,
+                    "Wind speed": 4.75,
+                    "Wind Direction": 229
+                }
+            ]
+        },
+        {
+            "Date": "1637107200",
+            "Data": [
+                {
+                    "Temperature": 46.63,
+                    "Rain": 0,
+                    "Wind speed": 9.35,
+                    "Wind Direction": 251
+                }
+            ]
+        },
+        {
+            "Date": "1637193600",
+            "Data": [
+                {
+                    "Temperature": 51.93,
+                    "Rain": 0.0005,
+                    "Wind speed": 22.13,
+                    "Wind Direction": 3
+                }
+            ]
+        },
+        {
+            "Date": "1637280000",
+            "Data": [
+                {
+                    "Temperature": 53.69,
+                    "Rain": 0,
+                    "Wind speed": 10.41,
+                    "Wind Direction": 240
+                }
+            ]
+        },
+        {
+            "Date": "1637366400",
+            "Data": [
+                {
+                    "Temperature": 49.96,
+                    "Rain": 0,
+                    "Wind speed": 6.01,
+                    "Wind Direction": 230
+                }
+            ]
+        },
+        {
+            "Date": "1637452800",
+            "Data": [
+                {
+                    "Temperature": 37.8,
+                    "Rain": 0.0002,
+                    "Wind speed": 9.27,
+                    "Wind Direction": 300
+                }
+            ]
+        },
+        {
+            "Date": "1637539200",
+            "Data": [
+                {
+                    "Temperature": 34.25,
+                    "Rain": 0,
+                    "Wind speed": 10.24,
+                    "Wind Direction": 330
+                }
+            ]
+        },
+        {
+            "Date": "1637625600",
+            "Data": [
+                {
+                    "Temperature": 32.22,
+                    "Rain": 0,
+                    "Wind speed": 6.88,
+                    "Wind Direction": 289
+                }
+            ]
+        },
+        {
+            "Date": "1637712000",
+            "Data": [
+                {
+                    "Temperature": 40.96,
+                    "Rain": 0,
+                    "Wind speed": 5.93,
+                    "Wind Direction": 231
+                }
+            ]
+        }
+    ]
+}
