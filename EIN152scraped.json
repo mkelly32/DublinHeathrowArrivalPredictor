@@ -1,6 +1,5 @@
 {
     "listOfDates": [
-        "25/11/2021 ",
         "24/11/2021 ",
         "23/11/2021 ",
         "22/11/2021 ",
@@ -50,14 +49,9 @@
         "A21N",
         "A21N",
         "A21N",
-        "A21N",
         "A21N"
     ],
     "listOfDelays": [
-        [
-            "on time",
-            "on time"
-        ],
         [
             "on time",
             "on time"
@@ -156,7 +150,6 @@
         ]
     ],
     "listOfScheduledTakeOffTimes": [
-        "06: 40",
         "06: 40",
         "06: 40",
         "06: 40",
