@@ -128,6 +128,7 @@ def main():
     #   print(set(planes))
 
     with open('flight_weather_data.csv', 'w') as f:
+        f.write("# DTemp DRain DWindSpeed DWindDirection LTemp LRain LWindSpeed LWindDirection B788 B789 A320 A20N A319 A330 A21N B772 A333 delta")
         for flight in cleaned_flight_data:
             f.write(weatherOnDate(flight["date"], cleaned_dublin_weather, cleaned_london_weather) + " " + encodeAircraftType(flight["plane"]) + " " + str(flight["delta"]) + "\n")
 
