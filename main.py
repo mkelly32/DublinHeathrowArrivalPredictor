@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
 
-def encodeAircraftType(type: str) -> str:
+def encodeAircraftType(type):
     aircraftType = ["0", "0", "0", "0", "0", "0", "0", "0", "0"]
     #   {'B788', 'B789', 'A320', 'A20N', 'A319', 'A330', 'A21N', 'B772', 'A333'}
     if type == 'B788':
@@ -23,9 +23,9 @@ def encodeAircraftType(type: str) -> str:
     elif type == 'A333':
         aircraftType[8] = "1"
 
-    return " ".join(aircraftType)
+    return ",".join(aircraftType)
 
-def weatherOnDate(date: datetime, dublin: list[object], london: list[object]) -> str:
+def weatherOnDate(date, dublin, london):
     dublin_weather = {}
     london_weather = {}
     for day in dublin:
@@ -38,7 +38,7 @@ def weatherOnDate(date: datetime, dublin: list[object], london: list[object]) ->
     if dublin_weather == {} or london_weather == {}:
         print(date)
     
-    return " ".join([
+    return ",".join([
         str(dublin_weather["temp"]), 
         str(dublin_weather["rain"]), 
         str(dublin_weather["wind_speed"]), 
@@ -51,7 +51,7 @@ def weatherOnDate(date: datetime, dublin: list[object], london: list[object]) ->
 
 
 
-def calculateDelta(delta: str) -> int:
+def calculateDelta(delta):
     if delta == "on time":
         return 0
     else:
@@ -128,10 +128,17 @@ def main():
     #   print(set(planes))
 
     with open('flight_weather_data.csv', 'w') as f:
-        f.write("# DTemp DRain DWindSpeed DWindDirection LTemp LRain LWindSpeed LWindDirection B788 B789 A320 A20N A319 A330 A21N B772 A333 delta")
+        f.write("DTemp(Farrenheit),DRain(mm/h),DWindSpeed,DWindDirection(degrees),LTemp(Farrenheit),LRainDRain(mm/h),LWindSpeed,LWindDirection(degrees),B788,B789,A320,A20N,A319,A330,A21N,B772,A333,delta(mins)\n")
         for flight in cleaned_flight_data:
-            f.write(weatherOnDate(flight["date"], cleaned_dublin_weather, cleaned_london_weather) + " " + encodeAircraftType(flight["plane"]) + " " + str(flight["delta"]) + "\n")
+            f.write(weatherOnDate(flight["date"], cleaned_dublin_weather, cleaned_london_weather) + "," + encodeAircraftType(flight["plane"]) + "," + str(flight["delta"]) + "\n")
 
+# This does the same as the above except it includes line numbers
+""" 
+    with open('flight_weather_data.csv', 'w') as f:
+        f.write("#,DTemp,DRain,DWindSpeed,DWindDirection,LTemp,LRain,LWindSpeed,LWindDirection,B788,B789,A320,A20N,A319,A330,A21N,B772,A333,delta\n")
+        for i,flight in enumerate(cleaned_flight_data):
+            f.write(str(i) + "," + weatherOnDate(flight["date"], cleaned_dublin_weather, cleaned_london_weather) + "," + encodeAircraftType(flight["plane"]) + "," + str(flight["delta"]) + "\n")
+ """
 
 
 if __name__ == "__main__":
