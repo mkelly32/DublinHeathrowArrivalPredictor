@@ -14,17 +14,20 @@ Y_COLUMN = 17
 #######
 # IMPORTING THE DATA
 #######
-df = pd.read_csv("flight_weather_data.csv")
-print(df.head())
+def import_data():
+    df = pd.read_csv("flight_weather_data.csv")
+    print(df.head())
 
-Xs = []
-for i in range(0,Y_COLUMN):
-    Xs.append(df.iloc[: ,i])
+    Xs = []
+    for i in range(0,Y_COLUMN):
+        Xs.append(df.iloc[: ,i])
 
-X = np.column_stack((Xs[0], Xs[1], Xs[2], Xs[3], Xs[4], Xs[5], Xs[6], Xs[7],
-                     Xs[8], Xs[9], Xs[10], Xs[11], Xs[12], Xs[13], Xs[14],
-                     Xs[15], Xs[16]))
-y = df.iloc[: ,Y_COLUMN]
+    # X is the list of feature vectors
+    # y is the true result
+    X = np.column_stack((Xs[0], Xs[1], Xs[2], Xs[3], Xs[4], Xs[5], Xs[6], Xs[7],
+                        Xs[8], Xs[9], Xs[10], Xs[11], Xs[12], Xs[13], Xs[14],
+                        Xs[15], Xs[16], Xs[17], Xs[18], Xs[19], Xs[20]))
+    y = df.iloc[: ,Y_COLUMN]
 
 
 #######

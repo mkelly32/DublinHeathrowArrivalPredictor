@@ -1,3 +1,17 @@
+#######
+# RESULTS
+#
+# 
+#
+#
+#
+#
+#######
+
+
+#######
+# IMPORTS
+#######
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -12,7 +26,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.model_selection import cross_val_score
 
-Y_COLUMN = 17
+Y_COLUMN = 21
 
 #######
 # IMPORTING THE DATA
@@ -29,7 +43,10 @@ def import_data():
     # y is the true result
     X = np.column_stack((Xs[0], Xs[1], Xs[2], Xs[3], Xs[4], Xs[5], Xs[6], Xs[7],
                         Xs[8], Xs[9], Xs[10], Xs[11], Xs[12], Xs[13], Xs[14],
-                        Xs[15], Xs[16]))
+                        Xs[15], Xs[16], Xs[17], Xs[18], Xs[19], Xs[20]))
+    # This picks only the wind related features (still no benefit compared to baseline)
+    """ X = np.column_stack((Xs[3], Xs[4], Xs[5],
+                        Xs[8], Xs[9], Xs[10])) """
     y = df.iloc[: ,Y_COLUMN]
     #print(y)
     #print(X[0])
@@ -52,7 +69,7 @@ def import_data():
 #
 # alpha = 1/2C  -  C = 0.01 -> alpha = 50  -  C = 1 -> alpha = 0.5  -  C = 100 -> 0.005
 #######
-def Xval(X, y, model, independant_vars):
+def Xval(X, y, model, independant_vars, polyCount):
     mean_error=[]
     std_error=[]
     meanbase_error=[]
@@ -83,32 +100,35 @@ def Xval(X, y, model, independant_vars):
         meanbase_error.append(np.array(scores).mean())
         stdbase_error.append(np.array(scores).std())
     
+    plt.clf()
+    plt.title('Cross validation (cv=5) for ' + model + ' model with poly: '+ str(polyCount))
     plt.errorbar(independant_vars,mean_error,yerr=std_error,linewidth=3)
     plt.errorbar(independant_vars,meanbase_error,yerr=stdbase_error)
     plt.xlabel('k'); plt.ylabel('Mean Squared Error')
     plt.xscale('log')
     plt.legend(["model predictions", "baseline predictions"])
-    plt.show()
+    #plt.show()
+    plt.savefig('CV_' + model + '-poly_' + str(polyCount) + '.png')
 
 #def XvalLinear(X, y):
 #    print('\033[4m' + "Ridge mean_squared_error scores" + '\033[0m')
 #    alphas = [5000, 500, 50, 5, 0.5, 0.05, 0.005]
 #    Xval(X, y, "linear", alphas)
 
-def XvalLasso(X, y):
+def XvalLasso(X, y, polyCount):
     print('\033[4m' + "Lasso mean_squared_error scores" + '\033[0m')
     alphas = [5000, 500, 50, 5, 0.5, 0.05, 0.005]
-    Xval(X, y, "lasso", alphas)
+    Xval(X, y, "lasso", alphas, polyCount)
 
-def XvalRidge(X, y):
+def XvalRidge(X, y, polyCount):
     print('\033[4m' + "Ridge mean_squared_error scores" + '\033[0m')
     alphas = [5000, 500, 50, 5, 0.5, 0.05, 0.005]
-    Xval(X, y, "ridge", alphas)
+    Xval(X, y, "ridge", alphas, polyCount)
 
-def XvalKNN(X, y):
+def XvalKNN(X, y, polyCount):
     print('\033[4m' + "KNN mean_squared_error scores" + '\033[0m')
     num_of_neighbours = [100, 50, 10, 5, 1]
-    Xval(X, y, "knn", num_of_neighbours)
+    Xval(X, y, "knn", num_of_neighbours, polyCount)
 
 ################
 ########### MAIN
@@ -120,10 +140,12 @@ def XvalKNN(X, y):
 ################
 [X,y] = import_data()
 
-polyRange = range(1,2)
-for poly in polyRange:
-    poly = PolynomialFeatures(poly)
+polyRange = range(1,3)
+for cPoly in polyRange:
+    poly = PolynomialFeatures(cPoly)
     powerFeatures = poly.fit_transform(X)
-    XvalLasso(powerFeatures, y) 
-    # XvalRidge(powerFeatures, y)     
-    # XvalKNN(powerFeatures, y) 
+    XvalLasso(powerFeatures, y, cPoly) 
+    # XvalRidge(powerFeatures, y, cPoly)     
+    # XvalKNN(powerFeatures, y, cPoly) 
+
+
