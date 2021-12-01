@@ -34,19 +34,20 @@ def weatherOnDate(date, dublin, london):
     for day in london:
         if day["date"] == date:
             london_weather = day
-
-    if dublin_weather == {} or london_weather == {}:
-        print(date)
     
     return ",".join([
         str(dublin_weather["temp"]), 
         str(dublin_weather["rain"]), 
         str(dublin_weather["wind_speed"]), 
         str(dublin_weather["wind_direction"]),
+        str(dublin_weather["visibility"]),
+        str(dublin_weather["cloud_coverage"]),
         str(london_weather["temp"]), 
         str(london_weather["rain"]), 
         str(london_weather["wind_speed"]), 
-        str(london_weather["wind_direction"])
+        str(london_weather["wind_direction"]),
+        str(london_weather["visibility"]),
+        str(london_weather["cloud_coverage"])
     ])
 
 
@@ -100,7 +101,7 @@ def main():
     #   delta means a flight was late. cleaned_flight_data is the cumulative of all the flight data.
     #   print(cleaned_flight_data)
 
-    dublin_weather = json.load(open("DublinAirportWeather.json"))
+    dublin_weather = json.load(open("DublinWeather2.json"))
     cleaned_dublin_weather = []
     for day in dublin_weather["DailyWeather"]:
         cleaned_dublin_weather.append({
@@ -108,10 +109,12 @@ def main():
             "temp": day["Data"][0]["Temperature"],
             "rain": day["Data"][0]["Rain"],
             "wind_speed": day["Data"][0]["Wind speed"],
-            "wind_direction": day["Data"][0]["Wind Direction"]
+            "wind_direction": day["Data"][0]["Wind Direction"],
+            "visibility": day["Data"][0]["Visibility"],
+            "cloud_coverage": day["Data"][0]["Cloud coverage"]
         })
 
-    london_weather = json.load(open("HeathrowWeather.json"))
+    london_weather = json.load(open("HeathrowWeather2.json"))
     cleaned_london_weather = []
     for day in london_weather["DailyWeather"]:
         cleaned_london_weather.append({
@@ -119,7 +122,9 @@ def main():
             "temp": day["Data"][0]["Temperature"],
             "rain": day["Data"][0]["Rain"],
             "wind_speed": day["Data"][0]["Wind speed"],
-            "wind_direction": day["Data"][0]["Wind Direction"]
+            "wind_direction": day["Data"][0]["Wind Direction"],
+            "visibility": day["Data"][0]["Visibility"],
+            "cloud_coverage": day["Data"][0]["Cloud coverage"]
         })
 
     #   cleaned_dubin_weather and cleaned_london_weather are both lists of objects. (ordered
@@ -128,7 +133,7 @@ def main():
     #   print(set(planes))
 
     with open('flight_weather_data.csv', 'w') as f:
-        f.write("DTemp(Farrenheit),DRain(mm/h),DWindSpeed(knots),DWindDirection(degrees),LTemp(Farrenheit),LRainDRain(mm/h),LWindSpeed(knots),LWindDirection(degrees),B788,B789,A320,A20N,A319,A330,A21N,B772,A333,delta(mins)\n")
+        f.write("DTemp(Farrenheit),DRain(mm/h),DWindSpeed(knots),DWindDirection(degrees),DVisibility,DCloudCoverage,LTemp(Farrenheit),LRainDRain(mm/h),LWindSpeed(knots),LWindDirection(degrees),LVisibility,LCloudCoverage,B788,B789,A320,A20N,A319,A330,A21N,B772,A333,delta(mins)\n")
         for flight in cleaned_flight_data:
             f.write(weatherOnDate(flight["date"], cleaned_dublin_weather, cleaned_london_weather) + "," + encodeAircraftType(flight["plane"]) + "," + str(flight["delta"]) + "\n")
 
