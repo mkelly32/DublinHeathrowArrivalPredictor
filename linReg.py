@@ -9,7 +9,7 @@ from sklearn.linear_model import Lasso
 from sklearn.dummy import DummyRegressor
 from sklearn.metrics import mean_squared_error
 
-Y_COLUMN = 17
+Y_COLUMN = 21
 
 #######
 # IMPORTING THE DATA
