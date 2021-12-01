@@ -120,8 +120,10 @@ def XvalKNN(X, y):
 ################
 [X,y] = import_data()
 
-polyRange = range(1,3)
+polyRange = range(1,2)
 for poly in polyRange:
     poly = PolynomialFeatures(poly)
     powerFeatures = poly.fit_transform(X)
-    XvalKNN(powerFeatures, y) # XvalLasso(powerFeatures, y) # XvalLinear(powerFeatures, y) # XvalRidge(powerFeatures, y) 
+    XvalLasso(powerFeatures, y) 
+    # XvalRidge(powerFeatures, y)     
+    # XvalKNN(powerFeatures, y) 
