@@ -39,11 +39,29 @@ def import_data():
     for i in range(0,Y_COLUMN):
         Xs.append(df.iloc[: ,i])
 
+    # experimental - wighting the wind by its direction, such that
+    # a direction towards london leaves it the same, away from london
+    # is equal but negative, and sideways is discarded. Bearing from
+    # DUB to LON is 111 degrees
+    newXs1 = []
+    newXs2 = []
+    for i in range(0,len(Xs[0])):
+        newXs1.append((((1 - (abs(111 - Xs[3][i]) / 180)) * 2) - 1) * Xs[2][i])
+        newXs2.append((((1 - (abs(111 - Xs[9][i]) / 180)) * 2) - 1) * Xs[8][i])
+    Xs[2] = newXs1
+    Xs[8] = newXs2
+
     # X is the list of feature vectors
     # y is the true result
-    X = np.column_stack((Xs[0], Xs[1], Xs[2], Xs[3], Xs[4], Xs[5], Xs[6], Xs[7],
+    X = np.column_stack((Xs[2], Xs[4], Xs[5],
+                        Xs[8], Xs[10], Xs[11]))
+    
+    # X is the list of feature vectors
+    # y is the true result
+    """ X = np.column_stack((Xs[0], Xs[1], Xs[2], Xs[3], Xs[4], Xs[5], Xs[6], Xs[7],
                         Xs[8], Xs[9], Xs[10], Xs[11], Xs[12], Xs[13], Xs[14],
-                        Xs[15], Xs[16], Xs[17], Xs[18], Xs[19], Xs[20]))
+                        Xs[15], Xs[16], Xs[17], Xs[18], Xs[19], Xs[20])) """
+    
     # This picks only the wind related features (still no benefit compared to baseline)
     """ X = np.column_stack((Xs[3], Xs[4], Xs[5],
                         Xs[8], Xs[9], Xs[10])) """
@@ -107,8 +125,8 @@ def Xval(X, y, model, independant_vars, polyCount):
     plt.xlabel('k'); plt.ylabel('Mean Squared Error')
     plt.xscale('log')
     plt.legend(["model predictions", "baseline predictions"])
-    #plt.show()
-    plt.savefig('CV_' + model + '-poly_' + str(polyCount) + '.png')
+    plt.show()
+    # plt.savefig('CV_' + model + '-poly_' + str(polyCount) + '.png')
 
 #def XvalLinear(X, y):
 #    print('\033[4m' + "Ridge mean_squared_error scores" + '\033[0m')
@@ -145,7 +163,5 @@ for cPoly in polyRange:
     poly = PolynomialFeatures(cPoly)
     powerFeatures = poly.fit_transform(X)
     # XvalLasso(powerFeatures, y, cPoly) 
-    # XvalRidge(powerFeatures, y, cPoly)     
-    XvalKNN(powerFeatures, y, cPoly) 
-
-
+    XvalRidge(powerFeatures, y, cPoly)     
+    # XvalKNN(powerFeatures, y, cPoly) 
