@@ -84,7 +84,7 @@ def Xval(X, y, model, independant_vars, polyCount):
         #elif(model == "linear"):
         #    selectedModel = LinearRegression().fit(X, y)
         elif(model == "knn"):
-            selectedModel = KNeighborsRegressor(n_neighbors=2, weights='uniform').fit(X, y)
+            selectedModel = KNeighborsRegressor(n_neighbors=independant_var, weights='uniform').fit(X, y)
         
         # Run model
         scores = cross_val_score(selectedModel, X, y, cv=5, scoring='neg_mean_squared_error')
@@ -144,8 +144,8 @@ polyRange = range(1,3)
 for cPoly in polyRange:
     poly = PolynomialFeatures(cPoly)
     powerFeatures = poly.fit_transform(X)
-    XvalLasso(powerFeatures, y, cPoly) 
+    # XvalLasso(powerFeatures, y, cPoly) 
     # XvalRidge(powerFeatures, y, cPoly)     
-    # XvalKNN(powerFeatures, y, cPoly) 
+    XvalKNN(powerFeatures, y, cPoly) 
 
 
