@@ -108,6 +108,7 @@ def Xval(X, y, model, independant_vars, polyCount):
         scores = cross_val_score(selectedModel, X, y, cv=5, scoring='neg_mean_squared_error')
         scores = scores * -1
         print(str(independant_var) + ": " + str(scores * (-1)))
+        print("Avg: " + str(sum(scores)/len(scores)))
         mean_error.append(np.array(scores).mean())
         std_error.append(np.array(scores).std())
         
@@ -162,6 +163,6 @@ polyRange = range(1,3)
 for cPoly in polyRange:
     poly = PolynomialFeatures(cPoly)
     powerFeatures = poly.fit_transform(X)
-    # XvalLasso(powerFeatures, y, cPoly) 
-    XvalRidge(powerFeatures, y, cPoly)     
-    # XvalKNN(powerFeatures, y, cPoly) 
+    XvalLasso(powerFeatures, y, cPoly) 
+    # XvalRidge(powerFeatures, y, cPoly)     
+    # XvalKNN(powerFeatures, y, cPoly)

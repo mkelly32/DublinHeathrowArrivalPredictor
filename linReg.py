@@ -24,6 +24,18 @@ print(df.head())
 Xs = []
 for i in range(0,Y_COLUMN):
     Xs.append(df.iloc[: ,i])
+    
+# experimental - wighting the wind by its direction, such that
+# a direction towards london leaves it the same, away from london
+# is equal but negative, and sideways is discarded. Bearing from
+# DUB to LON is 111 degrees
+""" newXs1 = []
+newXs2 = []
+for i in range(0,len(Xs[0])):
+    newXs1.append((((1 - (abs(111 - Xs[3][i]) / 180)) * 2) - 1) * Xs[2][i])
+    newXs2.append((((1 - (abs(111 - Xs[9][i]) / 180)) * 2) - 1) * Xs[8][i])
+Xs[2] = newXs1
+Xs[8] = newXs2 """
 
 # X is the list of feature vectors
 # y is the true result
@@ -39,11 +51,11 @@ y = df.iloc[: ,Y_COLUMN]
 # We use the mean result as the baseline regressor
 #######
 
-baseline_model = DummyRegressor(strategy="mean").fit(X, y)
+""" baseline_model = DummyRegressor(strategy="mean").fit(X, y)
 
 # test the model and evaluate the predictions
 y_pred = baseline_model.predict(X)
-print("Baseline mean squared error: " + str(mean_squared_error(y,y_pred)))
+print("Baseline mean squared error: " + str(mean_squared_error(y,y_pred))) """
 
 #######
 # RUNNING IT THROUGH A LINEAR REGRESSION MODEL
@@ -51,9 +63,9 @@ print("Baseline mean squared error: " + str(mean_squared_error(y,y_pred)))
 # No hyperparameter here, so no CV necessary
 #######
 
-linear_model = LinearRegression().fit(X, y)
+""" linear_model = LinearRegression().fit(X, y)
 y_pred = linear_model.predict(X)
-print("Linear model's mean squared error: " + str(mean_squared_error(y,y_pred)))
+print("Linear model's mean squared error: " + str(mean_squared_error(y,y_pred))) """
 
 #######
 # RUNNING IT THROUGH A RIDGE REGRESSION MODEL
@@ -65,13 +77,14 @@ print("Linear model's mean squared error: " + str(mean_squared_error(y,y_pred)))
 # Thus we choose poly=1 with alpha=50
 #######
 
-ridge_model = Ridge().fit(X, y)
+""" ridge_model = Ridge(alpha=50).fit(X, y)
 y_pred = ridge_model.predict(X)
-print("Ridge model's mean squared error: " + str(mean_squared_error(y,y_pred)))
+print('intercept', ridge_model.intercept_, ' slope', ridge_model.coef_)
+print("Ridge model's mean squared error: " + str(mean_squared_error(y,y_pred))) """
 
 #######
 # RUNNING IT THROUGH A LASSO REGRESSION MODEL
-# From the plots we can see that alpha larger than 1000 performs best, and
+# From the plots we can see that alpha larger than 50 performs best, and
 # by looking at the individual scores we see that for alpha = 500 or 5000, the
 # results are exactly the same.
 # Comparing the best score of poly=1 and poly=2 gives us, we see poly=1 gives us
@@ -80,10 +93,17 @@ print("Ridge model's mean squared error: " + str(mean_squared_error(y,y_pred)))
 # sum([  -60.73180791 -1162.3313063   -175.18044385   -16.40347565 -71.05432283])/5 
 # = -297.140271308
 # Thus we chose poly=1 and alpha=500.
+#
+# HOWEVER, we can learn a lot about the features have the most impact according to the
+# model, by setting alpha low (acknowledging that this gives worse results than the baseline)
+# params: [ 0.22518315   -0.          0.          0.00434525  0.          0. -0.03431487  
+# 0.          0.04214754 -0.00455631 -0.04291345 -0.  0.          0.          0.         
+# 0.         -0.          0. -0.         -0.         -0.        ]
 #######
 
-lasso_model = Lasso().fit(X, y)
+lasso_model = Lasso(alpha=1).fit(X, y)
 y_pred = lasso_model.predict(X)
+print('intercept', lasso_model.intercept_, ' slope', lasso_model.coef_)
 print("Lasso model's mean squared error: " + str(mean_squared_error(y,y_pred)))
 
 #######
@@ -97,9 +117,10 @@ print("Lasso model's mean squared error: " + str(mean_squared_error(y,y_pred)))
 # Thus we choose poly=1 with #=100
 #######
 
-ridge_model = KNeighborsRegressor(n_neighbors=100, weights='uniform').fit(X, y)
-y_pred = ridge_model.predict(X)
-print("KNN model's mean squared error: " + str(mean_squared_error(y,y_pred)))
+""" knn_model = KNeighborsRegressor(n_neighbors=100, weights='uniform').fit(X, y)
+y_pred = knn_model.predict(X)
+print('intercept', knn_model.intercept_, ' slope', knn_model.coef_)
+print("KNN model's mean squared error: " + str(mean_squared_error(y,y_pred))) """
 
 
 #######
