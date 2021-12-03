@@ -74,7 +74,19 @@ def main():
         "EIN164scraped.json",
         "EIN168scraped.json",
         "EIN172scraped.json",
-        "EIN176scraped.json"
+        "EIN176scraped.json",
+        "EIN231scraped.json",
+        "EIN239scraped.json",
+        "EIN247scraped.json",
+        "RYR113scraped.json",
+        "RYR115scraped.json",
+        "RYR117scraped.json",
+        "RYR119scraped.json",
+        "RYR121scraped.json",
+        "RYR123scraped.json",
+        "RYR127scraped.json",
+        "RYR143scraped.json",
+        "RYR158scraped.json"
     ]
 
     flight_data = []
@@ -88,12 +100,13 @@ def main():
         flight = flight_data[i]
         for j in range(len(flight["listOfDates"])):
             date = flight["listOfDates"][j].split("/")
-            planes.append(flight["listOfAircrafts"][j])
-            cleaned_flight_data.append({
-                "date": datetime(int(date[2]), int(date[1]), int(date[0])).date(),
-                "plane": flight["listOfAircrafts"][j],
-                "delta": calculateDelta(flight["listOfDelays"][j][1])
-            })
+            if((int(date[1]) <= 11) & (int(date[0]) < 25)):
+                planes.append(flight["listOfAircrafts"][j])
+                cleaned_flight_data.append({
+                    "date": datetime(int(date[2]), int(date[1]), int(date[0])).date(),
+                    "plane": flight["listOfAircrafts"][j],
+                    "delta": calculateDelta(flight["listOfDelays"][j][1])
+                })
     cleaned_flight_data.sort(key = lambda item: item.get("date"))
 
     #   cleaned_flight_data is an ordered list of objects. Each object contains a datetime, 

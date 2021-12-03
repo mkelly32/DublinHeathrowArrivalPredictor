@@ -126,8 +126,8 @@ def Xval(X, y, model, independant_vars, polyCount):
     plt.xlabel('k'); plt.ylabel('Mean Squared Error')
     plt.xscale('log')
     plt.legend(["model predictions", "baseline predictions"])
-    plt.show()
-    # plt.savefig('CV_' + model + '-poly_' + str(polyCount) + '.png')
+    # plt.show()
+    plt.savefig('CV_' + model + '-poly_' + str(polyCount) + '.png')
 
 #def XvalLinear(X, y):
 #    print('\033[4m' + "Ridge mean_squared_error scores" + '\033[0m')

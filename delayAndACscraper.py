@@ -94,11 +94,11 @@ def getDelayAndTakeoffTime(href, driver):
  
 #print(getDelay("/live/flight/BAW845/history/20211109/1055Z/EIDW/EGLL"))   
 #print(get_flights('BAW837'))
-""" flights = ['BAW839', 'BAW831', 'EIN176', 'VIR522', 'EIN152']
+flights = ['RYR115', 'RYR158', 'RYR143', 'RYR127','RYR123', 'EIN247', 'EIN239', 'RYR121','RYR119', 'RYR117', 'EIN231', 'RYR113']
 for flight_id in flights:
-    f = open("Delay features//" + flight_id + "scraped.json", "w")
+    f = open(flight_id + "scraped.json", "w")
     f.write(str(get_flights(flight_id)))
-    f.close() """
+    f.close()
 
 
 
@@ -113,7 +113,7 @@ print(len(rec['listOfAircrafts']))
 print(len(rec['listOfDelays'])) """
 
 # Find the set of flight IDs to scrape ({...} converts the list to a set)
-ids = {"BAW845","EIN158","EIN154","BAW831",
+HEATHROWids = {"BAW845","EIN158","EIN154","BAW831",
 "EIN152","BAW839","EIN176","BAW827",
 "BAW837","EIN172","BAW9174","EIN164",
 "BAW845","EIN158","EIN154","BAW831",
@@ -121,5 +121,7 @@ ids = {"BAW845","EIN158","EIN154","BAW831",
 "EIN176","EIN168","EIN164","BAW845",
 "EIN158","BAW831","EIN152","EIN168",
 "EIN154"}
-#{'BAW9174'-4, 'BAW837'-80, 'EIN154', 'EIN164', 'EIN172', 'BAW845', 
-# 'EIN158', 'EIN168', 'BAW827', 'BAW839', 'BAW831', 'EIN176', 'VIR522', 'EIN152'}
+
+GATWICKids = {'RYR115', 'RYR158', 'RYR143', 'RYR127',
+ 'RYR123', 'EIN247', 'EIN239', 'RYR121',
+ 'RYR119', 'RYR117', 'EIN231', 'RYR113'}
