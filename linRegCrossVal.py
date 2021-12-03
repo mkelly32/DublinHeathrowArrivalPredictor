@@ -53,14 +53,14 @@ def import_data():
 
     # X is the list of feature vectors
     # y is the true result
-    X = np.column_stack((Xs[2], Xs[4], Xs[5],
+    """X = np.column_stack((Xs[2], Xs[4], Xs[5],
                         Xs[8], Xs[10], Xs[11]))
-    
+     """
     # X is the list of feature vectors
     # y is the true result
-    """ X = np.column_stack((Xs[0], Xs[1], Xs[2], Xs[3], Xs[4], Xs[5], Xs[6], Xs[7],
+    X = np.column_stack((Xs[0], Xs[1], Xs[2], Xs[3], Xs[4], Xs[5], Xs[6], Xs[7],
                         Xs[8], Xs[9], Xs[10], Xs[11], Xs[12], Xs[13], Xs[14],
-                        Xs[15], Xs[16], Xs[17], Xs[18], Xs[19], Xs[20])) """
+                        Xs[15], Xs[16], Xs[17], Xs[18], Xs[19], Xs[20]))
     
     # This picks only the wind related features (still no benefit compared to baseline)
     """ X = np.column_stack((Xs[3], Xs[4], Xs[5],
@@ -115,6 +115,8 @@ def Xval(X, y, model, independant_vars, polyCount):
         print("Avg: " + str(sum(scores)/len(scores)))
         mean_error.append(np.array(scores).mean())
         std_error.append(np.array(scores).std())
+        #print('intercept', selectedModel.intercept_, ' slope', selectedModel.coef_)
+
         
         # Run baseline model
         baseModel =  DummyRegressor(strategy="mean")
@@ -142,7 +144,7 @@ def Xval(X, y, model, independant_vars, polyCount):
 
 def XvalLasso(X, y, polyCount):
     print('\033[4m' + "Lasso mean_squared_error scores" + '\033[0m')
-    alphas = [5000, 500, 50, 5, 0.5, 0.05, 0.005]
+    alphas = [5000, 500, 50, 5, 0.5, 0.05, 0.005] #[0.005, 0.00005]
     Xval(X, y, "lasso", alphas, polyCount)
 
 def XvalRidge(X, y, polyCount):
