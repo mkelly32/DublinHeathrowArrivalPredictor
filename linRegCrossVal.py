@@ -93,17 +93,21 @@ def Xval(X, y, model, independant_vars, polyCount):
     meanbase_error=[]
     stdbase_error=[]
     
+    plt.clf()
     for independant_var in independant_vars:
         # Select model
         if  (model == "lasso"):
             selectedModel = Lasso(alpha=independant_var).fit(X, y)
+            plt.xlabel('C')
         elif(model == "ridge"):
             selectedModel = Ridge(alpha=independant_var).fit(X, y)
+            plt.xlabel('C')
         #elif(model == "linear"):
         #    selectedModel = LinearRegression().fit(X, y)
         elif(model == "knn"):
             selectedModel = KNeighborsRegressor(n_neighbors=independant_var, weights='uniform').fit(X, y)
-        
+            plt.xlabel('# of neighbours')
+            
         # Run model
         scores = cross_val_score(selectedModel, X, y, cv=5, scoring='neg_mean_squared_error')
         scores = scores * -1
@@ -119,15 +123,17 @@ def Xval(X, y, model, independant_vars, polyCount):
         meanbase_error.append(np.array(scores).mean())
         stdbase_error.append(np.array(scores).std())
     
-    plt.clf()
+    for i in range(0,len(independant_vars)):
+        independant_vars[i] = 1 / (2 * independant_vars[i])
+        
     plt.title('Cross validation (cv=5) for ' + model + ' model with poly: '+ str(polyCount))
     plt.errorbar(independant_vars,mean_error,yerr=std_error,linewidth=3)
     plt.errorbar(independant_vars,meanbase_error,yerr=stdbase_error)
-    plt.xlabel('k'); plt.ylabel('Mean Squared Error')
+    plt.ylabel('Mean Squared Error')
     plt.xscale('log')
     plt.legend(["model predictions", "baseline predictions"])
-    plt.show()
-    # plt.savefig('CV_' + model + '-poly_' + str(polyCount) + '.png')
+    # plt.show()
+    plt.savefig('CV_' + model + '-poly_' + str(polyCount) + '.png')
 
 #def XvalLinear(X, y):
 #    print('\033[4m' + "Ridge mean_squared_error scores" + '\033[0m')
@@ -163,6 +169,6 @@ polyRange = range(1,3)
 for cPoly in polyRange:
     poly = PolynomialFeatures(cPoly)
     powerFeatures = poly.fit_transform(X)
-    XvalLasso(powerFeatures, y, cPoly) 
+    # XvalLasso(powerFeatures, y, cPoly) 
     # XvalRidge(powerFeatures, y, cPoly)     
-    # XvalKNN(powerFeatures, y, cPoly)
+    XvalKNN(powerFeatures, y, cPoly)
