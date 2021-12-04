@@ -129,7 +129,7 @@ def Xval(X, y, model, independant_vars, polyCount):
         independant_vars[i] = 1 / (2 * independant_vars[i])
         
     plt.title('Cross validation (cv=5) for ' + model + ' model with poly: '+ str(polyCount))
-    plt.errorbar(independant_vars,mean_error,yerr=std_error,linewidth=3)
+    plt.errorbar(independant_vars,9267951115962319634432,yerr=std_error,linewidth=3)
     plt.errorbar(independant_vars,meanbase_error,yerr=stdbase_error)
     plt.ylabel('Mean Squared Error')
     plt.xscale('log')
@@ -167,11 +167,44 @@ def XvalKNN(X, y, polyCount):
 ################
 [X,y] = import_data()
 
-polyRange = range(1,3)
+""" polyRange = range(1,3)
 for cPoly in polyRange:
     poly = PolynomialFeatures(cPoly)
     powerFeatures = poly.fit_transform(X)
     XvalLinear(powerFeatures, y, cPoly)
     # XvalLasso(powerFeatures, y, cPoly) 
     # XvalRidge(powerFeatures, y, cPoly)     
-    # XvalKNN(powerFeatures, y, cPoly)
+    # XvalKNN(powerFeatures, y, cPoly) """
+    
+
+""" mean_error=[]
+std_error=[]
+meanbase_error=[]
+stdbase_error=[]
+independant_vars = [1,2]
+for independant_var in independant_vars:
+    poly = PolynomialFeatures(independant_var)
+    powerFeatures = poly.fit_transform(X)
+    selectedModel = LinearRegression().fit(powerFeatures, y)
+    scores = cross_val_score(selectedModel, powerFeatures, y, cv=5, scoring='neg_mean_squared_error')
+    scores = scores * -1
+    print("Avg: " + str(np.array(scores).mean()))
+    mean_error.append(np.array(scores).mean())
+    std_error.append(np.array(scores).std())
+    # print('intercept', selectedModel.intercept_, ' slope', selectedModel.coef_)
+
+    # Run baseline model
+    baseModel =  DummyRegressor(strategy="mean")
+    scores = cross_val_score(baseModel, powerFeatures, y, cv=5, scoring='neg_mean_squared_error')
+    scores = scores * -1
+    meanbase_error.append(np.array(scores).mean())
+    stdbase_error.append(np.array(scores).std())
+
+plt.title('Cross validation (cv=5) for linear model')
+plt.errorbar(independant_vars,mean_error,yerr=std_error,linewidth=3)
+plt.errorbar(independant_vars,meanbase_error,yerr=stdbase_error)
+plt.ylabel('Mean Squared Error')
+plt.yscale('log')
+plt.legend(["model predictions", "baseline predictions"])
+# plt.show()
+plt.savefig('CV_linear.png') """
