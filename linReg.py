@@ -96,9 +96,11 @@ print("Ridge model's mean squared error: " + str(mean_squared_error(y,y_pred))) 
 #
 # HOWEVER, we can learn a lot about the features have the most impact according to the
 # model, by setting alpha low (acknowledging that this gives worse results than the baseline)
-# params: [ 0.22518315   -0.          0.          0.00434525  0.          0. -0.03431487  
-# 0.          0.04214754 -0.00455631 -0.04291345 -0.  0.          0.          0.         
-# 0.         -0.          0. -0.         -0.         -0.        ]
+# params: 
+# [ 0.2132199 , -0.      ,    0.10763292 , 0.0051867  , 0.5024525,  0.   ,      -0.   ,  
+# 0.    ,     -0.1586784  ,-0.0052332 , -1.06483294 ,-0.     ,     0.  
+# ,      0.      ,    0.    ,      0.   ,      -0.  ,0. ,        -0.   
+# ,  -0.    ,     -0.    ,      0.00209548 , 0.06279668] (alpha = 0.5)
 #######
 
 lasso_model = Lasso(alpha=1).fit(X, y)

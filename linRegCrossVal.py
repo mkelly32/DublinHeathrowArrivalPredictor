@@ -43,13 +43,13 @@ def import_data():
     # a direction towards london leaves it the same, away from london
     # is equal but negative, and sideways is discarded. Bearing from
     # DUB to LON is 111 degrees
-    newXs1 = []
-    newXs2 = []
+    newXs1ParallelWind = []
+    newXs2ParralelWind = []
     for i in range(0,len(Xs[0])):
-        newXs1.append((((1 - (abs(111 - Xs[3][i]) / 180)) * 2) - 1) * Xs[2][i])
-        newXs2.append((((1 - (abs(111 - Xs[9][i]) / 180)) * 2) - 1) * Xs[8][i])
-    Xs[2] = newXs1
-    Xs[8] = newXs2
+        newXs1ParallelWind.append((((1 - (abs(111 - Xs[3][i]) / 180)) * 2) - 1) * Xs[2][i])
+        newXs2ParralelWind.append((((1 - (abs(111 - Xs[9][i]) / 180)) * 2) - 1) * Xs[8][i])
+    """ Xs[2] = newXs1ParallelWind
+    Xs[8] = newXs2ParralelWind """
 
     # X is the list of feature vectors
     # y is the true result
@@ -60,7 +60,7 @@ def import_data():
     # y is the true result
     X = np.column_stack((Xs[0], Xs[1], Xs[2], Xs[3], Xs[4], Xs[5], Xs[6], Xs[7],
                         Xs[8], Xs[9], Xs[10], Xs[11], Xs[12], Xs[13], Xs[14],
-                        Xs[15], Xs[16], Xs[17], Xs[18], Xs[19], Xs[20]))
+                        Xs[15], Xs[16], Xs[17], Xs[18], Xs[19], Xs[20], newXs1ParallelWind, newXs2ParralelWind))
     
     # This picks only the wind related features (still no benefit compared to baseline)
     """ X = np.column_stack((Xs[3], Xs[4], Xs[5],
@@ -102,8 +102,8 @@ def Xval(X, y, model, independant_vars, polyCount):
         elif(model == "ridge"):
             selectedModel = Ridge(alpha=independant_var).fit(X, y)
             plt.xlabel('C')
-        #elif(model == "linear"):
-        #    selectedModel = LinearRegression().fit(X, y)
+        elif(model == "linear"):
+            selectedModel = LinearRegression().fit(X, y)
         elif(model == "knn"):
             selectedModel = KNeighborsRegressor(n_neighbors=independant_var, weights='uniform').fit(X, y)
             plt.xlabel('# of neighbours')
@@ -112,10 +112,10 @@ def Xval(X, y, model, independant_vars, polyCount):
         scores = cross_val_score(selectedModel, X, y, cv=5, scoring='neg_mean_squared_error')
         scores = scores * -1
         print(str(independant_var) + ": " + str(scores * (-1)))
-        print("Avg: " + str(sum(scores)/len(scores)))
+        print("Avg: " + str(np.array(scores).mean()))
         mean_error.append(np.array(scores).mean())
         std_error.append(np.array(scores).std())
-        #print('intercept', selectedModel.intercept_, ' slope', selectedModel.coef_)
+        # print('intercept', selectedModel.intercept_, ' slope', selectedModel.coef_)
 
         
         # Run baseline model
@@ -137,10 +137,10 @@ def Xval(X, y, model, independant_vars, polyCount):
     # plt.show()
     plt.savefig('CV_' + model + '-poly_' + str(polyCount) + '.png')
 
-#def XvalLinear(X, y):
-#    print('\033[4m' + "Ridge mean_squared_error scores" + '\033[0m')
-#    alphas = [5000, 500, 50, 5, 0.5, 0.05, 0.005]
-#    Xval(X, y, "linear", alphas)
+def XvalLinear(X, y, polyCount):
+    print('\033[4m' + "Linear mean_squared_error scores" + '\033[0m')
+    alphas = [1]
+    Xval(X, y, "linear", alphas, polyCount)
 
 def XvalLasso(X, y, polyCount):
     print('\033[4m' + "Lasso mean_squared_error scores" + '\033[0m')
@@ -171,6 +171,7 @@ polyRange = range(1,3)
 for cPoly in polyRange:
     poly = PolynomialFeatures(cPoly)
     powerFeatures = poly.fit_transform(X)
+    XvalLinear(powerFeatures, y, cPoly)
     # XvalLasso(powerFeatures, y, cPoly) 
     # XvalRidge(powerFeatures, y, cPoly)     
-    XvalKNN(powerFeatures, y, cPoly)
+    # XvalKNN(powerFeatures, y, cPoly)
