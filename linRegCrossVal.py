@@ -129,7 +129,7 @@ def Xval(X, y, model, independant_vars, polyCount):
         independant_vars[i] = 1 / (2 * independant_vars[i])
         
     plt.title('Cross validation (cv=5) for ' + model + ' model with poly: '+ str(polyCount))
-    plt.errorbar(independant_vars,9267951115962319634432,yerr=std_error,linewidth=3)
+    plt.errorbar(independant_vars,mean_error,yerr=std_error,linewidth=3)
     plt.errorbar(independant_vars,meanbase_error,yerr=stdbase_error)
     plt.ylabel('Mean Squared Error')
     plt.xscale('log')
