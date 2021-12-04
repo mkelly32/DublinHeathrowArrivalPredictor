@@ -177,7 +177,7 @@ for cPoly in polyRange:
     # XvalKNN(powerFeatures, y, cPoly) """
     
 
-""" mean_error=[]
+mean_error=[]
 std_error=[]
 meanbase_error=[]
 stdbase_error=[]
@@ -204,7 +204,8 @@ plt.title('Cross validation (cv=5) for linear model')
 plt.errorbar(independant_vars,mean_error,yerr=std_error,linewidth=3)
 plt.errorbar(independant_vars,meanbase_error,yerr=stdbase_error)
 plt.ylabel('Mean Squared Error')
+plt.xlabel('Order of polynomial features')
 plt.yscale('log')
 plt.legend(["model predictions", "baseline predictions"])
 # plt.show()
-plt.savefig('CV_linear.png') """
+plt.savefig('CV_linear.png')
